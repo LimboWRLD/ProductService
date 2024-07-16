@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\delete\\productdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\delete\\productdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\get\\productgetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\get\\productgetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\post\\productpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\post\\productpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\post\\productpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\post\\productpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\tiacpraksap1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\tiacpraksap1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\migrations\\20240715092436_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\migrations\\20240715092436_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\repositories\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\repositories\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\migrations\\productcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\migrations\\productcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Migrations\\20240715092153_Initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TiacPraksaP1\\Migrations\\20240715092153_Initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Mappings\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T10:47:47.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Program.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Program.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Program.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:00:43.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\ProductService.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Services\\Service\\ProductService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIAwwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:48:57.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductPostResponse.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\ProductPostResponse.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Post\\ProductPostResponse.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\ProductPostResponse.cs",
+              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Post\\ProductPostResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:43:06.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDeleteResponse.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Delete\\ProductDeleteResponse.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Delete\\ProductDeleteResponse.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Delete\\ProductDeleteResponse.cs",
+              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Delete\\ProductDeleteResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:40:22.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAACgAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:26:06.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\appsettings.json",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\appsettings.json",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\appsettings.json",
+              "RelativeToolTip": "TiacPraksaP1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T08:56:31.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Models\\Product.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:06:55.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "TiacPraksaP1\\DTOs\\ProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:46:34.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductGetResponse.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Get\\ProductGetResponse.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Get\\ProductGetResponse.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Get\\ProductGetResponse.cs",
+              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Get\\ProductGetResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:42:22.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductPostRequest.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\ProductPostRequest.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Post\\ProductPostRequest.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\ProductPostRequest.cs",
+              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Post\\ProductPostRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:44:53.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TiacPraksaP1\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-16T10:22:31.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:18:16.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Migrations\\ProductContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Migrations\\ProductContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Migrations\\ProductContextModelSnapshot.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Migrations\\ProductContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T09:10:15.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TiacPraksaP1.csproj",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\TiacPraksaP1.csproj",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\TiacPraksaP1.csproj",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\TiacPraksaP1.csproj",
+              "RelativeToolTip": "TiacPraksaP1\\TiacPraksaP1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-15T10:40:19.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAIBJwEEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:55:18.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240715092436_Initials.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Migrations\\20240715092436_Initials.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Migrations\\20240715092436_Initials.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Migrations\\20240715092436_Initials.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Migrations\\20240715092436_Initials.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:24:37.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Validators\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Validators\\ProductValidator.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Validators\\ProductValidator.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Validators\\ProductValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:41:00.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:31:35.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:51:38.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\WeatherForecast.cs",
+              "RelativeToolTip": "TiacPraksaP1\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:00:42.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240715092153_Initials.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Migrations\\20240715092153_Initials.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Migrations\\20240715092153_Initials.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Migrations\\20240715092153_Initials.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Migrations\\20240715092153_Initials.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:21:53.805Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
