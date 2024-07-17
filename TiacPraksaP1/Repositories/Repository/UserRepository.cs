@@ -14,39 +14,39 @@ namespace TiacPraksaP1.Repositories.Repository
             this._context = appDbContext;
         }
 
-        public User CreateUser(User user)
+        public async Task<User> CreateUser(User user)
         {
             _context.Users.Add(user);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return user;
         }
 
-        public User DeleteUser(int id)
+        public async Task<User> DeleteUser(int id)
         {
             var foundUser = _context.Users.FirstOrDefault(x => x.Id == id);
             if (foundUser != null)
             {
                 _context.Users.Remove(foundUser);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
             }
             return foundUser;
         }
 
-        public User GetUser(int id) => _context.Users.FirstOrDefault(x => x.Id == id);
+        public async Task<User> GetUser(int id) => _context.Users.FirstOrDefault(x => x.Id == id);
 
-        public IEnumerable<User> GetUsers() => _context.Users;
+        public async Task<IEnumerable<User>> GetUsers() => await _context.Users.ToListAsync();
     
 
-        public User UpdateUser(User user)
+        public async Task<User> UpdateUser(User user)
         {
-            var foundUser = GetUser(user.Id);
+            var foundUser =await GetUser(user.Id);
             if (foundUser != null)
             {
                 foundUser.Username = user.Username;
                 foundUser.Password = user.Password;
                 foundUser.Email = user.Email;
                 foundUser.Role = user.Role;
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
             }
             return user;
         }

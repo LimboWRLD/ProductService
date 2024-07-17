@@ -6,14 +6,14 @@ namespace TiacPraksaP1.Services.Interfaces
 {
     public interface IRoleService
     {
-        public IEnumerable<RoleGetResponse> GetAllRoles();
+        public Task<IEnumerable<RoleGetResponse>> GetAllRoles();
 
-        public RoleGetResponse GetSpecificRole(int id);
+        public Task<RoleGetResponse> GetSpecificRole(int id);
 
-        public RolePostResponse CreateRole(RolePostRequest role);
+        public Task<RolePostResponse> CreateRole(RolePostRequest role);
 
-        public UserDeleteResponse DeleteRole(int id);
+        public Task<RoleDeleteResponse> DeleteRole(int id);
 
-        public RolePostResponse UpdateRole(RolePostRequest role);
+        public Task<RolePostResponse> UpdateRole(RolePostRequest role);
     }
 }

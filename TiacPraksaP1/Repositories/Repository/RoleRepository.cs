@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Data;
 using TiacPraksaP1.Data;
 using TiacPraksaP1.Models;
 using TiacPraksaP1.Repositories.Interfaces;
@@ -9,45 +10,50 @@ namespace TiacPraksaP1.Repositories.Repository
     {
         private readonly AppDbContext _context;
 
-        public Role CreateRole(Role role)
+        public RoleRepository(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<Role> CreateRole(Role role)
         {
             _context.Roles.Add(role);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return role;
         }
 
-        public Role DeleteRole(int id)
+        public async Task<Role> DeleteRole(int id)
         {
             var role =  _context.Roles.FirstOrDefault(x => x.Id == id);
 
             if (role != null)
             {
                 _context.Roles.Remove(role);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
 
             }
             return role;
         }
 
-        public Role GetRole(int id)
+        public async Task<Role> GetRole(int id)
         {
-            return _context.Roles.FirstOrDefault(x=> x.Id == id);
+            return await _context.Roles.FirstOrDefaultAsync(x=> x.Id == id);
 
         }
 
-        public IEnumerable<Role> GetRoles()
+        public async Task<IEnumerable<Role>> GetRoles()
         {
-            return _context.Roles.ToList();
+            return await _context.Roles.ToListAsync();
         }
 
-        public Role UpdateRole(Role role)
+        public async Task<Role> UpdateRole(Role role)
         {
-            var foundRole  = GetRole(role.Id);
+            var foundRole  = await GetRole(role.Id);
 
             if (foundRole != null)
             {
                 foundRole.Name = role.Name!;
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return foundRole;
             }
             return null;

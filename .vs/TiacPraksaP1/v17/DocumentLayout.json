@@ -3,148 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\migrations\\productcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\migrations\\productcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\migrations\\20240717083818_secondtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\migrations\\20240717083818_secondtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\post\\userpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\post\\userpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\post\\userpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\post\\userpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\post\\productpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\post\\productpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\post\\productpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\post\\productpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\post\\rolepostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\post\\rolepostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\post\\rolepostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\post\\rolepostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\get\\usergetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\get\\usergetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\get\\rolegetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\get\\rolegetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\delete\\userdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\delete\\userdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\login\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\login\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\delete\\roledeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\delete\\roledeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\delete\\productdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\delete\\productdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\repositories\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\repositories\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\repositories\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\repositories\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\repositories\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\repositories\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\validators\\rolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\validators\\rolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tiacpraksap1\\repositories\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|TiacPraksaP1\\TiacPraksaP1.csproj|solutionrelative:tiacpraksap1\\repositories\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -159,469 +91,248 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IdentityController.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\IdentityController.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Controllers\\IdentityController.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\IdentityController.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Controllers\\IdentityController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Title": "ProductContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Migrations\\ProductContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Migrations\\ProductContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Migrations\\ProductContextModelSnapshot.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Migrations\\ProductContextModelSnapshot.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:55:42.719Z",
+              "WhenOpened": "2024-07-17T17:05:48.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Title": "20240717083818_SecondTest.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Migrations\\20240717083818_SecondTest.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Migrations\\20240717083818_SecondTest.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Migrations\\20240717083818_SecondTest.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Migrations\\20240717083818_SecondTest.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:39:27.254Z",
+              "WhenOpened": "2024-07-17T17:05:15.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDMAAAAJAAAA",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:08:13.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\UserService.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Services\\Service\\UserService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:22:11.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserValidator.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Validators\\UserValidator.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Validators\\UserValidator.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Validators\\UserValidator.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Validators\\UserValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:32:35.199Z",
+              "WhenOpened": "2024-07-17T17:05:05.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAowD4AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:19:18.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "TiacPraksaP1\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\UserController.cs",
               "RelativeToolTip": "TiacPraksaP1\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAgwEgAAAAgAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:31:22.323Z",
+              "WhenOpened": "2024-07-17T17:03:15.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Models\\User.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Models\\User.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:06:05.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Mappings\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Mappings\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Mappings\\MappingProfile.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Mappings\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:38:54.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:38:43.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserPostResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\UserPostResponse.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Post\\UserPostResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\UserPostResponse.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Post\\UserPostResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:38:29.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserPostRequest.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\UserPostRequest.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Post\\UserPostRequest.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\UserPostRequest.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Post\\UserPostRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:37:56.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductPostResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\ProductPostResponse.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Post\\ProductPostResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\ProductPostResponse.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Post\\ProductPostResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:38:08.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RolePostRequest.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\RolePostRequest.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Post\\RolePostRequest.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\RolePostRequest.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Post\\RolePostRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:33:43.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RoleDTO.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\RoleDTO.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\RoleDTO.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\RoleDTO.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\RoleDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:21:49.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserGetResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Get\\UserGetResponse.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Get\\UserGetResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Get\\UserGetResponse.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Get\\UserGetResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:37:33.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RolePostResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\RolePostResponse.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Post\\RolePostResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\RolePostResponse.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Post\\RolePostResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:34:52.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RoleGetResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Get\\RoleGetResponse.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Get\\RoleGetResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Get\\RoleGetResponse.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Get\\RoleGetResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:33:48.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductPostRequest.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\ProductPostRequest.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Post\\ProductPostRequest.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Post\\ProductPostRequest.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Post\\ProductPostRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:34:46.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UserDeleteResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Delete\\UserDeleteResponse.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Delete\\UserDeleteResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Delete\\UserDeleteResponse.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Delete\\UserDeleteResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:37:08.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserLoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Login\\UserLoginRequest.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Login\\UserLoginRequest.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Login\\UserLoginRequest.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Login\\UserLoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:33:51.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RoleDeleteResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Delete\\RoleDeleteResponse.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Delete\\RoleDeleteResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Delete\\RoleDeleteResponse.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Delete\\RoleDeleteResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:33:55.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ProductDeleteResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Delete\\ProductDeleteResponse.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\Delete\\ProductDeleteResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\Delete\\ProductDeleteResponse.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\Delete\\ProductDeleteResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:35:16.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\RoleService.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Service\\RoleService.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\RoleService.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Services\\Service\\RoleService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:03:01.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\ProductService.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Service\\ProductService.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\ProductService.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Services\\Service\\ProductService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAzwBcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:03:32.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Repository\\RoleRepository.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\RoleRepository.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Repository\\RoleRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:09:23.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:07:20.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:06:25.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:51:33.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IRoleService.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IRoleService.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Interfaces\\IRoleService.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IRoleService.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Services\\Interfaces\\IRoleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:07:19.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T10:07:04.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 4,
               "Title": "RoleController.cs",
               "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "TiacPraksaP1\\Controllers\\RoleController.cs",
               "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\RoleController.cs",
               "RelativeToolTip": "TiacPraksaP1\\Controllers\\RoleController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAkwEoAAAAUAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAEsAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:19:05.462Z",
+              "WhenOpened": "2024-07-17T16:39:27.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "RoleValidator.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Validators\\RoleValidator.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Validators\\RoleValidator.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Validators\\RoleValidator.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Validators\\RoleValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "DocumentIndex": 7,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAEkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:19:56.74Z",
+              "WhenOpened": "2024-07-17T16:31:41.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ProductValidator.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Validators\\ProductValidator.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Validators\\ProductValidator.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Validators\\ProductValidator.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Validators\\ProductValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\UserService.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Services\\Service\\UserService.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAACwAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:20:09.395Z",
+              "WhenOpened": "2024-07-17T16:20:18.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\DTOs\\ProductDTO.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\DTOs\\ProductDTO.cs",
-              "RelativeToolTip": "TiacPraksaP1\\DTOs\\ProductDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\RoleService.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Service\\RoleService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\RoleService.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Services\\Service\\RoleService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:21:32.161Z",
+              "WhenOpened": "2024-07-17T16:05:57.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Models\\Role.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Models\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "DocumentIndex": 11,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Mappings\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:21:53.889Z",
+              "WhenOpened": "2024-07-17T16:05:13.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Service\\ProductService.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Services\\Service\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:59:11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwB8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:37:07.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:58:56.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IRoleService.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Interfaces\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IRoleService.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Services\\Interfaces\\IRoleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:58:17.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:57:07.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAB0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:54:12.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:45:27.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Repository\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Repository\\RoleRepository.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Repository\\RoleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:42:22.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:36:23.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "TiacPraksaP1\\Repositories\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Repositories\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "TiacPraksaP1\\Repositories\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:34:17.695Z",
               "EditorCaption": ""
             }
           ]

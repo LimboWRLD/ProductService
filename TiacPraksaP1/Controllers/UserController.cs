@@ -25,9 +25,9 @@ namespace TiacPraksaP1.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<UserGetResponse>> GetUsers()
+        public async Task<ActionResult<IEnumerable<UserGetResponse>>> GetUsers()
         {
-            var response = _userService.GetAllUsers().ToList();
+            var response =await _userService.GetAllUsers();
             if(response.IsNullOrEmpty())
             {
                 return NotFound("No users were found");
@@ -36,9 +36,9 @@ namespace TiacPraksaP1.Controllers
         }
 
         [HttpGet("{int:id}")]
-        public ActionResult<UserGetResponse>GetUser(int id)
+        public async Task<ActionResult<UserGetResponse>>GetUser(int id)
         {
-            var response = _userService.GetSpecificUser(id);
+            var response =await _userService.GetSpecificUser(id);
             if(response == null)
             {
                 return NotFound("User was not found");
@@ -47,12 +47,12 @@ namespace TiacPraksaP1.Controllers
         }
 
         [HttpPost]
-        public ActionResult<UserPostResponse>AddUser(UserPostRequest request)
+        public async Task<ActionResult<UserPostResponse>>AddUser(UserPostRequest request)
         {
             var result  = _userValidator.Validate(request);
             if(result.IsValid)
             {
-                var response =  _userService.CreateUser(request);
+                var response =await  _userService.CreateUser(request);
                 if(response == null)
                 {
                     return BadRequest("User was not added.");
@@ -63,9 +63,9 @@ namespace TiacPraksaP1.Controllers
         }
 
         [HttpDelete]
-        public ActionResult<UserDeleteResponse> DeleteUser(int id) 
+        public async Task<ActionResult<UserDeleteResponse>> DeleteUser(int id) 
         {
-            var response = _userService.DeleteUser(id); 
+            var response =await _userService.DeleteUser(id); 
             if (response == null)
             {
                 return NotFound("User was not found");

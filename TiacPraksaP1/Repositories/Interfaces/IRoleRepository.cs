@@ -4,14 +4,14 @@ namespace TiacPraksaP1.Repositories.Interfaces
 {
     public interface IRoleRepository
     {
-        public Role CreateRole(Role role);
+        public Task<Role> CreateRole(Role role);
 
-        public Role DeleteRole(int id);
+        public Task<Role> DeleteRole(int id);
 
-        public Role UpdateRole(Role role);  
+        public Task<Role> UpdateRole(Role role);  
 
-        public Role GetRole(int id);   
+        public Task<Role> GetRole(int id);   
         
-        public IEnumerable<Role> GetRoles();
+        public Task<IEnumerable<Role>> GetRoles();
     }
 }

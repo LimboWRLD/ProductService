@@ -21,11 +21,11 @@ namespace TiacPraksaP1.Controllers
             _validator = validator;
         }
         [HttpPost]
-        public ActionResult<RolePostResponse> AddRole(RolePostRequest rolePostRequest) {
+        public async Task<ActionResult<RolePostResponse>> AddRole(RolePostRequest rolePostRequest) {
             var result  = _validator.Validate(rolePostRequest);
             if(result.IsValid) 
             {
-                var response = _roleService.CreateRole(rolePostRequest);
+                var response =await _roleService.CreateRole(rolePostRequest);
                 if(response != null)
                 {
                     return Ok(result);
@@ -36,9 +36,9 @@ namespace TiacPraksaP1.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<RoleGetResponse>> GetAllRoles()
+        public async Task<ActionResult<IEnumerable<RoleGetResponse>>> GetAllRoles()
         {
-            var response  = _roleService.GetAllRoles().ToList();
+            var response  = await _roleService.GetAllRoles();
             if (response.IsNullOrEmpty())
             {
                 return NotFound("No roles were found!");
@@ -47,8 +47,8 @@ namespace TiacPraksaP1.Controllers
         }
 
         [HttpGet("{int:id}")]
-        public ActionResult<RoleGetResponse> GetRole(int id) {
-            var response = _roleService.GetSpecificRole(id);
+        public async Task<ActionResult<RoleGetResponse>> GetRole(int id) {
+            var response =await _roleService.GetSpecificRole(id);
             if( response != null)
             {
                 return Ok(response);
@@ -57,12 +57,12 @@ namespace TiacPraksaP1.Controllers
         }
 
         [HttpPut]
-        public ActionResult<RolePostResponse>UpdateRole(RolePostRequest rolePostRequest)
+        public async Task<ActionResult<RolePostResponse>>UpdateRole(RolePostRequest rolePostRequest)
         {
             var result = _validator.Validate(rolePostRequest);
             if(result.IsValid)
             {
-                var response = _roleService.UpdateRole(rolePostRequest);
+                var response =await _roleService.UpdateRole(rolePostRequest);
                 if (response != null)
                 {
                     return Ok(response);
@@ -73,8 +73,8 @@ namespace TiacPraksaP1.Controllers
         }
 
         [HttpDelete]
-        public ActionResult<UserDeleteResponse>DeleteRole(int id) {
-            var response = _roleService.DeleteRole(id);
+        public async Task<ActionResult<UserDeleteResponse>>DeleteRole(int id) {
+            var response =await _roleService.DeleteRole(id);
             if(response != null)
             {
                 return Ok("Role was deleted. " + response);

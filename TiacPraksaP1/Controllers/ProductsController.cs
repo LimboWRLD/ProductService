@@ -28,12 +28,12 @@ namespace TiacPraksaP1.Controllers
 
         //Create
         [HttpPost]
-        public ActionResult<ProductPostResponse> AddProduct(ProductPostRequest product)
+        public async Task<ActionResult<ProductPostResponse>> AddProduct(ProductPostRequest product)
         {
             var result = _productValidator.Validate(product);
             if(result.IsValid)
             {
-                var response = _productService.CreateProduct(product);
+                var response = await _productService.CreateProduct(product);
                 if (response == null)
                 {
                     return BadRequest("Adding went wrong.");
@@ -44,9 +44,9 @@ namespace TiacPraksaP1.Controllers
         }
         //Get 
         [HttpGet]
-        public ActionResult<List<Product>> GetAllProducts()
+        public async Task<ActionResult<List<Product>>> GetAllProducts()
         {
-            var response = _productService.GetAllProducts();
+            var response =await _productService.GetAllProducts();
             if (response == null)
             {
                 return NotFound("No products were found");
@@ -55,9 +55,9 @@ namespace TiacPraksaP1.Controllers
         }
 
         [HttpGet("{id:int}")]
-        public ActionResult<Product> GetProduct(int id)
+        public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var response = _productService.GetSpecificProduct(id);
+            var response =await _productService.GetSpecificProduct(id);
             if (response == null)
             {
                 return NotFound("No products were found");
@@ -66,12 +66,12 @@ namespace TiacPraksaP1.Controllers
         }
         //Update
         [HttpPut]
-        public ActionResult<List<ProductPostResponse>> UpdateProduct(ProductPostRequest UpdatedProduct)
+        public async Task<ActionResult<List<ProductPostResponse>>> UpdateProduct(ProductPostRequest UpdatedProduct)
         {
             var result = _productValidator.Validate(UpdatedProduct);
             if (result.IsValid)
             {
-                var response = _productService.UpdateProduct(UpdatedProduct);
+                var response =await _productService.UpdateProduct(UpdatedProduct);
                 if (response == null)
                 {
                     return NotFound("No products were found");
@@ -85,9 +85,9 @@ namespace TiacPraksaP1.Controllers
         
         //Delete
         [HttpDelete]
-        public ActionResult<List<Product>> DeleteProduct(int id)
+        public async Task<ActionResult<List<Product>>> DeleteProduct(int id)
         {
-            var response = _productService.DeleteProduct(id);
+            var response = await _productService.DeleteProduct(id);
             if(response != null)
             {
                 return Ok(response);

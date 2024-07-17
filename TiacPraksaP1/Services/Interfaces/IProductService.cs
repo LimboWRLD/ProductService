@@ -7,14 +7,14 @@ namespace TiacPraksaP1.Services.Interfaces
 {
     public interface IProductService
     {
-        public IEnumerable<ProductGetResponse> GetAllProducts();
+        public Task<IEnumerable<ProductGetResponse>> GetAllProducts();
 
-        public ProductGetResponse GetSpecificProduct(int id);
+        public Task<ProductGetResponse> GetSpecificProduct(int id);
 
-        public ProductPostResponse CreateProduct(ProductPostRequest product);
+        public Task<ProductPostResponse> CreateProduct(ProductPostRequest product);
 
-        public ProductDeleteResponse DeleteProduct(int id);
+        public Task<ProductDeleteResponse> DeleteProduct(int id);
 
-        public ProductPostResponse UpdateProduct(ProductPostRequest product);
+        public Task<ProductPostResponse> UpdateProduct(ProductPostRequest product);
     }
 }

@@ -4,14 +4,14 @@ namespace TiacPraksaP1.Repositories.Interfaces
 {
     public interface IProductRepository
     {
-        public Product CreateProduct(Product product);
+        public Task<Product> CreateProduct(Product product);
 
-        public Product UpdateProduct(Product product);
+        public Task<Product> UpdateProduct(Product product);
 
-        public Product DeleteProduct(int id);
+        public Task<Product> DeleteProduct(int id);
 
-        public IEnumerable<Product> GetAllProducts();
+        public Task<IEnumerable<Product>> GetAllProducts();
 
-        public Product GetSpecificProduct(int id);
+        public Task<Product> GetSpecificProduct(int id);
     }
 }

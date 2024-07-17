@@ -18,25 +18,21 @@ namespace TiacPraksaP1.Repositories.Repository
             this._context = productContext;
         }
 
-        public Product UpdateProduct(Product product)
-        {
-            if (product != null)
+        public async Task<Product> UpdateProduct(Product product)
+        {                
+            var oldProduct =await _context.Products.FirstOrDefaultAsync(p => p.Id == product.Id);
+            if (oldProduct != null)
             {
-                
-                    var oldProduct = _context.Products.FirstOrDefault(p => p.Id == product.Id);
-                    if (oldProduct != null)
-                    {
-                        _context.Products.Remove(oldProduct);
-                        _context.Products.Add(product);
-                        _context.SaveChanges();
-                        return product;
-                    }
-                    return null;
+                oldProduct.Name = product.Name;
+                oldProduct.Description = product.Description;
+                oldProduct.Price = product.Price;
+                await _context.SaveChangesAsync();
+                return product;
             }
-            return null;
+            return oldProduct;
         }
 
-        public Product CreateProduct(Product product)
+        public async Task<Product> CreateProduct(Product product)
         {
             if (product != null)
             {
@@ -44,48 +40,29 @@ namespace TiacPraksaP1.Repositories.Repository
                 _context.SaveChanges();
                 return product;
             }
-            return null;
+            return product;
         }
 
-        public Product DeleteProduct(int id)
+        public async Task<Product> DeleteProduct(int id)
         {
-            if (!(id == null))
-            {
-                Product toDelete = _context.Products.FirstOrDefault(p => p.Id == id);
+                var toDelete = _context.Products.FirstOrDefault(p => p.Id == id);
                 if(toDelete != null)
                 {
                     _context.Remove(toDelete);
-                    _context.SaveChanges();
+                    await _context.SaveChangesAsync();
                     return toDelete;
                 }
                 throw new NullReferenceException("Product that you wanted to delete is null");
-            }
-            throw new ArgumentException("The id you searched for is null or empty");
         }
 
-        public IEnumerable<Product> GetAllProducts()
+        public async  Task<IEnumerable<Product>> GetAllProducts()
         {
-            return _context.Products.ToList();
+            return await _context.Products.ToListAsync();
         }
 
-        public Product GetSpecificProduct(int id)
+        public async  Task<Product> GetSpecificProduct(int id)
         {
-            if (id != null)
-            {
-                var products = GetAllProducts();
-
-
-                foreach (var product in products)
-                {
-                    if (product.Id == id)
-                    {
-                        return product;
-                    }
-                }
-      
-            }
-            throw new ArgumentNullException("Id was null");
-
+            return await _context.Products.FirstOrDefaultAsync(x => x.Id == id);
         }
     }
 }

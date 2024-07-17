@@ -20,29 +20,29 @@ namespace TiacPraksaP1.Services.Service
 
 
 
-        public UserPostResponse CreateUser(UserPostRequest user)
+        public async Task<UserPostResponse> CreateUser(UserPostRequest user)
         {
-            return _mapper.Map<UserPostResponse>(_userRepository.CreateUser(_mapper.Map<User>(user)));
+            return _mapper.Map<UserPostResponse>(await _userRepository.CreateUser(_mapper.Map<User>(user)));
         }
 
-        public UserDeleteResponse DeleteUser(int id)
+        public async Task<UserDeleteResponse> DeleteUser(int id)
         {
-            return _mapper.Map<UserDeleteResponse>(_userRepository.DeleteUser(id));
+            return _mapper.Map<UserDeleteResponse>(await _userRepository.DeleteUser(id));
         }
 
-        public IEnumerable<UserGetResponse> GetAllUsers()
+        public async Task<IEnumerable<UserGetResponse>> GetAllUsers()
         {
-            return _mapper.Map<IEnumerable<UserGetResponse>>(_userRepository.GetUsers());
+            return _mapper.Map<IEnumerable<UserGetResponse>>(await _userRepository.GetUsers());
         }
 
-        public UserGetResponse GetSpecificUser(int id)
+        public async Task<UserGetResponse> GetSpecificUser(int id)
         {
-            return _mapper.Map<UserGetResponse>(_userRepository.GetUser(id));
+            return _mapper.Map<UserGetResponse>(await _userRepository.GetUser(id));
         }
 
-        public UserPostResponse UpdateUser(UserPostRequest user)
+        public async Task<UserPostResponse> UpdateUser(UserPostRequest user)
         {
-            return _mapper.Map<UserPostResponse>(_userRepository.UpdateUser(_mapper.Map<User>(user)));
+            return _mapper.Map<UserPostResponse>(await _userRepository.UpdateUser(_mapper.Map<User>(user)));
         }
     }
 }

@@ -20,31 +20,31 @@ namespace TiacPraksaP1.Services.Service
             _mapper = mapper;
         }
 
-        public ProductPostResponse CreateProduct(ProductPostRequest product)
+        public async Task<ProductPostResponse> CreateProduct(ProductPostRequest product)
         {
-            return _mapper.Map<ProductPostResponse>(_productRepository.CreateProduct(_mapper.Map<Product>(product))); 
+            return _mapper.Map<ProductPostResponse>(await _productRepository.CreateProduct(_mapper.Map<Product>(product))); 
         }
 
-        public ProductPostResponse UpdateProduct(ProductPostRequest product)
+        public async Task<ProductPostResponse> UpdateProduct(ProductPostRequest product)
         {
-            return _mapper.Map<ProductPostResponse>(_productRepository.UpdateProduct(_mapper.Map<Product>(product)));
+            return _mapper.Map<ProductPostResponse>(await _productRepository.UpdateProduct(_mapper.Map<Product>(product)));
         }
 
-        public ProductDeleteResponse DeleteProduct(int id)
+        public async Task<ProductDeleteResponse> DeleteProduct(int id)
         {
-            return _mapper.Map<ProductDeleteResponse>(_productRepository.DeleteProduct(id));
+            return _mapper.Map<ProductDeleteResponse>(await _productRepository.DeleteProduct(id));
         }
 
-        public IEnumerable<ProductGetResponse> GetAllProducts()
+        public async Task<IEnumerable<ProductGetResponse>> GetAllProducts()
         {
             
-            return _mapper.Map<List<ProductGetResponse>>(_productRepository.GetAllProducts());
+            return _mapper.Map<List<ProductGetResponse>>(await _productRepository.GetAllProducts());
         }
 
-        public ProductGetResponse GetSpecificProduct(int id)
+        public async Task<ProductGetResponse> GetSpecificProduct(int id)
         {
              
-            return _mapper.Map<ProductGetResponse>(_productRepository.GetSpecificProduct(id));
+            return _mapper.Map<ProductGetResponse>(await _productRepository.GetSpecificProduct(id));
         }
 
 

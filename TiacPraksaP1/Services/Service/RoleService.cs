@@ -20,29 +20,29 @@ namespace TiacPraksaP1.Services.Service
             _mapper = mapper;
         }
 
-        public RolePostResponse CreateRole(RolePostRequest role)
+        public async Task<RolePostResponse> CreateRole(RolePostRequest role)
         {
-            return _mapper.Map<RolePostResponse>(_roleRepository.CreateRole(_mapper.Map<Role>(role)));
+            return _mapper.Map<RolePostResponse>(await _roleRepository.CreateRole(_mapper.Map<Role>(role)));
         }
 
-        public UserDeleteResponse DeleteRole(int id)
+        public async Task<RoleDeleteResponse> DeleteRole(int id)
         {
-            return _mapper.Map<UserDeleteResponse>(_roleRepository.DeleteRole(id));
+            return _mapper.Map<RoleDeleteResponse>(await _roleRepository.DeleteRole(id));
         }
 
-        public IEnumerable<RoleGetResponse> GetAllRoles()
+        public async Task<IEnumerable<RoleGetResponse>> GetAllRoles()
         {
-            return _mapper.Map<IEnumerable<RoleGetResponse>>(_roleRepository.GetRoles());
+            return _mapper.Map<IEnumerable<RoleGetResponse>>(await _roleRepository.GetRoles());
         }
 
-        public RoleGetResponse GetSpecificRole(int id)
+        public async Task<RoleGetResponse> GetSpecificRole(int id)
         {
-            return _mapper.Map<RoleGetResponse>(_roleRepository.GetRole(id));
+            return _mapper.Map<RoleGetResponse>(await _roleRepository.GetRole(id));
         }
 
-        public RolePostResponse UpdateRole(RolePostRequest role)
+        public async Task<RolePostResponse> UpdateRole(RolePostRequest role)
         {
-            return _mapper.Map<RolePostResponse>(_roleRepository.UpdateRole(_mapper.Map<Role>(role)));  
+            return _mapper.Map<RolePostResponse>(await _roleRepository.UpdateRole(_mapper.Map<Role>(role)));  
         }
     }
 }
