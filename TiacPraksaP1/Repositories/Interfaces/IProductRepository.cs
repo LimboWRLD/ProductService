@@ -10,8 +10,8 @@ namespace TiacPraksaP1.Repositories.Interfaces
 
         public Product DeleteProduct(int id);
 
-        public List<Product> GetAllProducts();
+        public IEnumerable<Product> GetAllProducts();
 
-        public List<Product> GetSpecificProducts(string name);
+        public Product GetSpecificProduct(int id);
     }
 }

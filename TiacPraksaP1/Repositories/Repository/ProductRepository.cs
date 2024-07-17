@@ -63,32 +63,29 @@ namespace TiacPraksaP1.Repositories.Repository
             throw new ArgumentException("The id you searched for is null or empty");
         }
 
-        public List<Product> GetAllProducts()
+        public IEnumerable<Product> GetAllProducts()
         {
             return _context.Products.ToList();
         }
 
-        public List<Product> GetSpecificProducts(string name)
+        public Product GetSpecificProduct(int id)
         {
-            if (name.IsNullOrEmpty())
+            if (id != null)
             {
-                return GetAllProducts();
-            }
-            var products = GetAllProducts();
-            var found = new List<Product>();
+                var products = GetAllProducts();
 
-            foreach ( var product in products)
-            {
-                if (product.Name.ToLower() == name.ToLower())
+
+                foreach (var product in products)
                 {
-                    found.Add(product);
+                    if (product.Id == id)
+                    {
+                        return product;
+                    }
                 }
+      
             }
-            if(found.Count > 0)
-            {
-                return found;
-            }
-            return null;
+            throw new ArgumentNullException("Id was null");
+
         }
     }
 }

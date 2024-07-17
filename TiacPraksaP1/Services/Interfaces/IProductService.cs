@@ -7,9 +7,9 @@ namespace TiacPraksaP1.Services.Interfaces
 {
     public interface IProductService
     {
-        public List<ProductGetResponse> GetAllProducts();
+        public IEnumerable<ProductGetResponse> GetAllProducts();
 
-        public List<ProductGetResponse> GetSpecificProducts(string name);
+        public ProductGetResponse GetSpecificProduct(int id);
 
         public ProductPostResponse CreateProduct(ProductPostRequest product);
 

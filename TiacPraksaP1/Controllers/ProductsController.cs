@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -11,6 +12,7 @@ using TiacPraksaP1.Validators;
 
 namespace TiacPraksaP1.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
@@ -53,9 +55,9 @@ namespace TiacPraksaP1.Controllers
         }
 
         [HttpGet("{id:int}")]
-        public ActionResult<List<Product>> GetProduct(string name)
+        public ActionResult<Product> GetProduct(int id)
         {
-            var response = _productService.GetSpecificProducts(name);
+            var response = _productService.GetSpecificProduct(id);
             if (response == null)
             {
                 return NotFound("No products were found");
