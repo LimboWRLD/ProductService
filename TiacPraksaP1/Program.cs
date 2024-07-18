@@ -9,18 +9,75 @@ using TiacPraksaP1.Repositories.Repository;
 using TiacPraksaP1.Services.Interfaces;
 using TiacPraksaP1.Services.Service;
 using TiacPraksaP1.Validators;
+using Microsoft.AspNetCore.Identity;
+using TiacPraksaP1.Models;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
+string _cors = "cors";
 
 // Add services to the container.
-builder.Services.AddAuthentication(x =>
+builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(x =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+builder.Services.AddSwaggerGen(c =>
 {
-    x.TokenValidationParameters = new TokenValidationParameters()
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Products", Version = "v1" });//ovo nam treba da bi videli dokumentaciju
+    c.SwaggerDoc("v2", new OpenApiInfo
+    {
+        Title = "JWTToken_Auth_API",
+        Version = "v2"
+    });
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 1safsfsdfdfd\"",
+    });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+        {
+            new OpenApiSecurityScheme {
+                Reference = new OpenApiReference {
+                    Type = ReferenceType.SecurityScheme,
+                        Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+});
+builder.Services.AddCors(options => {
+    options.AddPolicy(name: _cors, builder =>
+    {
+        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
+
+builder.Services.AddIdentity<User,IdentityRole>()
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders();
+
+builder.Services.AddCors(options => {
+    options.AddPolicy(name: _cors, builder =>
+    {
+        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters()
     {
         ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
         ValidAudience = builder.Configuration["JwtSettings:Audience"],
@@ -35,16 +92,15 @@ builder.Services.AddAuthentication(x =>
 builder.Services.AddAuthorization();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-builder.Services.AddScoped<IProductRepository,ProductRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ProductValidator, ProductValidator>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<UserValidator, UserValidator>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<AppDbContext>(Options =>{
-    Options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
 
 var app = builder.Build();
 

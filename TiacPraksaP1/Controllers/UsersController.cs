@@ -6,19 +6,20 @@ using TiacPraksaP1.DTOs.Delete;
 using TiacPraksaP1.DTOs.Get;
 using TiacPraksaP1.DTOs.Post;
 using TiacPraksaP1.Services.Interfaces;
+using TiacPraksaP1.Services.Service;
 using TiacPraksaP1.Validators;
 
 namespace TiacPraksaP1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
 
         private readonly UserValidator _userValidator;
 
-        public UserController(UserValidator userValidator, IUserService userService)
+        public UsersController(UserValidator userValidator, IUserService userService)
         {
             _userValidator = userValidator;
             _userService = userService;
@@ -35,7 +36,7 @@ namespace TiacPraksaP1.Controllers
             return Ok(response);
         }
 
-        [HttpGet("{int:id}")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<UserGetResponse>>GetUser(int id)
         {
             var response =await _userService.GetSpecificUser(id);
@@ -45,7 +46,21 @@ namespace TiacPraksaP1.Controllers
             }
             return Ok(response);    
         }
-
+        [HttpPut]
+        public async Task<ActionResult<UserPostResponse>> UpdateRole(UserPostRequest rolePostRequest)
+        {
+            var result = _userValidator.Validate(rolePostRequest);
+            if (result.IsValid)
+            {
+                var response = await _userService.UpdateUser(rolePostRequest);
+                if (response != null)
+                {
+                    return Ok(response);
+                }
+                return BadRequest("Role was not updated!");
+            }
+            throw new ArgumentException("Role was not valid! " + result.ToString());
+        }
         [HttpPost]
         public async Task<ActionResult<UserPostResponse>>AddUser(UserPostRequest request)
         {

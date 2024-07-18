@@ -4,7 +4,7 @@ namespace TiacPraksaP1.Repositories.Interfaces
 {
     public interface IUserRepository
     {
-        public Task<User> CreateUser(User user);
+        public Task<User> CreateUser(User user, string password);
 
         public Task<User> DeleteUser(int id);
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TiacPraksaP1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8302fb8efbd6d5ec078a140e9f00f843dbcf46b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb579fd11cace414b3891b0c3646783850bcb4bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TiacPraksaP1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TiacPraksaP1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

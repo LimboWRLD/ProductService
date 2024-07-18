@@ -2,6 +2,8 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TiacPraksaP1.Data;
 
 #nullable disable
@@ -9,9 +11,11 @@ using TiacPraksaP1.Data;
 namespace TiacPraksaP1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class ProductContextModelSnapshot : ModelSnapshot
+    [Migration("20240718100107_jwt")]
+    partial class jwt
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.7");

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using TiacPraksaP1.Data;
 using TiacPraksaP1.Models;
 using TiacPraksaP1.Repositories.Interfaces;
@@ -7,48 +8,57 @@ namespace TiacPraksaP1.Repositories.Repository
 {
     public class UserRepository : IUserRepository
     {
+        private readonly UserManager<User> _userManager;
         private readonly AppDbContext _context;
 
-        public UserRepository(AppDbContext appDbContext)
+        public UserRepository(UserManager<User> userManager, AppDbContext context)
         {
-            this._context = appDbContext;
+            _userManager = userManager;
+            _context = context;
         }
 
-        public async Task<User> CreateUser(User user)
+        public async Task<User> CreateUser(User user, string password)
         {
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
-            return user;
+            var result = await _userManager.CreateAsync(user, password);
+            if (result.Succeeded)
+            {
+                return user;
+            }
+            return null;
         }
 
         public async Task<User> DeleteUser(int id)
         {
-            var foundUser = _context.Users.FirstOrDefault(x => x.Id == id);
-            if (foundUser != null)
+            var user = await _context.Users.FindAsync(id);
+            if (user != null)
             {
-                _context.Users.Remove(foundUser);
-                await _context.SaveChangesAsync();
-            }
-            return foundUser;
-        }
-
-        public async Task<User> GetUser(int id) => _context.Users.FirstOrDefault(x => x.Id == id);
-
-        public async Task<IEnumerable<User>> GetUsers() => await _context.Users.ToListAsync();
-    
-
-        public async Task<User> UpdateUser(User user)
-        {
-            var foundUser =await GetUser(user.Id);
-            if (foundUser != null)
-            {
-                foundUser.Username = user.Username;
-                foundUser.Password = user.Password;
-                foundUser.Email = user.Email;
-                foundUser.Role = user.Role;
+                _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
             }
             return user;
+        }
+
+        public async Task<User> GetUser(int id)
+        {
+            return await _context.Users.FindAsync(id);
+        }
+
+        public async Task<IEnumerable<User>> GetUsers()
+        {
+            return await _context.Users.ToListAsync();
+        }
+
+        public async Task<User> UpdateUser(User user)
+        {
+            var existingUser = await _context.Users.FindAsync(user.Id);
+            if (existingUser != null)
+            {
+                existingUser.UserName = user.UserName;
+                existingUser.Email = user.Email;
+                _context.Users.Update(existingUser);
+                await _context.SaveChangesAsync();
+            }
+            return existingUser;
         }
     }
 }

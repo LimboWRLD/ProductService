@@ -6,9 +6,9 @@ using TiacPraksaP1.DTOs.Delete;
 
 namespace TiacPraksaP1.Mappings
 {
-    public class MappingProfile: Profile
+    public class ProductProfile: Profile
     {
-        public MappingProfile() {
+        public ProductProfile() {
             CreateMap<ProductGetResponse, Product>();
             CreateMap<Product,ProductGetResponse>();
             CreateMap<ProductPostResponse, Product>();
