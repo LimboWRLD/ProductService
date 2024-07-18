@@ -4,3 +4,8 @@ GET {{Producs_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+GET {{Producs_HostAddress}}/throw
+###
+
+GET {{Producs_HostAddress}}/throwNotFound

@@ -12,8 +12,8 @@ using TiacPraksaP1.Validators;
 using Microsoft.AspNetCore.Identity;
 using TiacPraksaP1.Models;
 using Microsoft.OpenApi.Models;
-using System.Reflection;
-using YourProject.Middleware;
+using Products.Exceptions;
+using Products.Exceptions.CustomExceptions;
 
 var builder = WebApplication.CreateBuilder(args);
 string _cors = "cors";
@@ -26,7 +26,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Products", Version = "v1" });//ovo nam treba da bi videli dokumentaciju
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Products", Version = "v1" });
     c.SwaggerDoc("v2", new OpenApiInfo
     {
         Title = "JWTToken_Auth_API",
@@ -95,10 +95,12 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<UserValidator, UserValidator>();
 builder.Services.AddEndpointsApiExplorer();
-
+builder.Services.AddExceptionHandler<AppExceptionHandler>();
+builder.Services.AddExceptionHandler<GeneralExceptionHandler>();
+builder.Services.AddProblemDetails();
 var app = builder.Build();
 
-app.UseMiddleware<ErrorHandlerMiddleware>();
+app.UseExceptionHandler(_ => { });
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -112,4 +114,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapGet("/throw", (_) => throw new Exception());
+app.MapGet("/throwNotFound", (_) => throw new NotFoundException());
 app.Run();
