@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using System.Data;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -20,16 +21,12 @@ namespace TiacPraksaP1.Controllers
         private readonly UserManager<User> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
-        private readonly IMapper _mapper;
-        private readonly IUserService _userService;
 
-        public IdentityController(UserManager<User> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration, IMapper mapper, IUserService userService)
+        public IdentityController(UserManager<User> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration)
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _configuration = configuration;
-            _mapper = mapper;
-            _userService = userService;
         }
 
         [HttpPost, AllowAnonymous]
@@ -37,33 +34,34 @@ namespace TiacPraksaP1.Controllers
         public async Task<IActionResult> Login([FromBody] UserLoginRequest model)
         {
             var user = await _userManager.FindByNameAsync(model.UserName);
-            if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
+            if (user == null)
             {
-                var userRoles = await _userManager.GetRolesAsync(user);
-
-                var authClaims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.Name, user.UserName),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                };
-
-                foreach (var userRole in userRoles)
-                {
-                    authClaims.Add(new Claim(ClaimTypes.Role, userRole));
-                }
-
-                var token = GetToken(authClaims);
-
-                return Ok(new
-                {
-                    token = new JwtSecurityTokenHandler().WriteToken(token),
-                    expiration = token.ValidTo,
-                    roles = userRoles
-                });
+                return Unauthorized(new { message = "Invalid username or password" });
             }
-            return Unauthorized();
-        }
 
+            if (!await _userManager.CheckPasswordAsync(user, model.Password))
+            {
+                return Unauthorized(new { message = "Invalid username or password" });
+            }
+
+            var userRoles = await _userManager.GetRolesAsync(user);
+
+            var authClaims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            };
+            authClaims.AddRange(userRoles.Select(role => new Claim(ClaimTypes.Role, role)));
+
+            var token = GetToken(authClaims);
+
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(token),
+                expiration = token.ValidTo,
+                roles = userRoles
+            });
+        }
         private JwtSecurityToken GetToken(List<Claim> authClaims)
         {
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:Key"]!));
@@ -87,8 +85,9 @@ namespace TiacPraksaP1.Controllers
             return await Register(model, role);
         }
 
-        [HttpPost, AllowAnonymous]
+        [HttpPost]
         [Route("register-admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> RegisterAdmin([FromBody] UserPostRequest model, string role = "Admin")
         {
             return await Register(model, role);
@@ -96,28 +95,35 @@ namespace TiacPraksaP1.Controllers
 
         private async Task<IActionResult> Register([FromBody] UserPostRequest model, string role)
         {
-            var userExists = await _userManager.FindByNameAsync(model.UserName);
-            if (userExists != null)
-                return StatusCode(StatusCodes.Status500InternalServerError);
+            var existingUser = await _userManager.FindByNameAsync(model.UserName);
+            if (existingUser != null)
+                return StatusCode(StatusCodes.Status500InternalServerError, new { message = "User already exists!" });
 
-            User user = new User
+            var user = new User
             {
                 Email = model.Email,
                 UserName = model.UserName,
             };
 
-            var result = await _userManager.CreateAsync(user, model.Password);
-            if (!result.Succeeded)
-                return BadRequest("User creation failed! Please check user details and try again.");
+            var createUserResult = await _userManager.CreateAsync(user, model.Password);
+            if (!createUserResult.Succeeded)
+                return BadRequest(new { message = "User creation failed! Please check user details and try again.", errors = createUserResult.Errors });
 
-            if (!await _roleManager.RoleExistsAsync($"{role}"))
-                await _roleManager.CreateAsync(new IdentityRole { Name = $"{role}" });
+            var roleExists = await _roleManager.RoleExistsAsync(role);
+            if (!roleExists)
+            {
+                var createRoleResult = await _roleManager.CreateAsync(new IdentityRole { Name = role });
+                if (!createRoleResult.Succeeded)
+                    return StatusCode(StatusCodes.Status500InternalServerError, new { message = "Role creation failed!", errors = createRoleResult.Errors });
+            }
 
-            if (await _roleManager.RoleExistsAsync($"{role}"))
-                await _userManager.AddToRoleAsync(user, $"{role}");
+            var addToRoleResult = await _userManager.AddToRoleAsync(user, role);
+            if (!addToRoleResult.Succeeded)
+                return StatusCode(StatusCodes.Status500InternalServerError, new { message = "Failed to add user to role!", errors = addToRoleResult.Errors });
 
-            return Ok("User created successfully!");
+            return Ok(new { message = "User created successfully!" });
         }
+
 
     }
 }

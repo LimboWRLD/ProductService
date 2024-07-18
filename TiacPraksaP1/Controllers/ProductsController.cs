@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Products.DTOs.Put;
+using System.Data;
 using System.Linq;
 using TiacPraksaP1.Data;
 using TiacPraksaP1.DTOs.Post;
@@ -19,18 +22,20 @@ namespace TiacPraksaP1.Controllers
     {
         private readonly IProductService _productService;
         private readonly ProductValidator _productValidator;
+        private readonly IMapper _mapper;
 
-        public ProductsController(IProductService productService, ProductValidator  productValidator)
+        public ProductsController(IProductService productService, ProductValidator productValidator, IMapper mapper)
         {
             _productService = productService;
-            _productValidator= productValidator;
+            _productValidator = productValidator;
+            _mapper = mapper;
         }
 
         //Create
         [HttpPost]
         public async Task<ActionResult<ProductPostResponse>> AddProduct(ProductPostRequest product)
         {
-            var result = _productValidator.Validate(product);
+            var result = _productValidator.Validate(_mapper.Map<Product>(product));
             if(result.IsValid)
             {
                 var response = await _productService.CreateProduct(product);
@@ -66,9 +71,10 @@ namespace TiacPraksaP1.Controllers
         }
         //Update
         [HttpPut]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<List<ProductPostResponse>>> UpdateProduct(ProductPostRequest UpdatedProduct)
         {
-            var result = _productValidator.Validate(UpdatedProduct);
+            var result = _productValidator.Validate(_mapper.Map<Product>(UpdatedProduct));
             if (result.IsValid)
             {
                 var response =await _productService.UpdateProduct(UpdatedProduct);
@@ -85,6 +91,7 @@ namespace TiacPraksaP1.Controllers
         
         //Delete
         [HttpDelete]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<List<Product>>> DeleteProduct(int id)
         {
             var response = await _productService.DeleteProduct(id);

@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Identity;
 using TiacPraksaP1.Models;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
+using YourProject.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 string _cors = "cors";
@@ -50,12 +51,6 @@ builder.Services.AddSwaggerGen(c =>
             },
             new string[] {}
         }
-    });
-});
-builder.Services.AddCors(options => {
-    options.AddPolicy(name: _cors, builder =>
-    {
-        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
     });
 });
 
@@ -100,10 +95,10 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<UserValidator, UserValidator>();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+app.UseMiddleware<ErrorHandlerMiddleware>();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

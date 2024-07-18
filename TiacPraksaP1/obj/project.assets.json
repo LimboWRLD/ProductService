@@ -8574,9 +8574,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\TiacPraksaP1.csproj",
-      "projectName": "TiacPraksaP1",
-      "projectPath": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\TiacPraksaP1.csproj",
+      "projectUniqueName": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Products.csproj",
+      "projectName": "Products",
+      "projectPath": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Products.csproj",
       "packagesPath": "C:\\Users\\namid\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\obj\\",
       "projectStyle": "PackageReference",

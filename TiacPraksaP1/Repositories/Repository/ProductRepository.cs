@@ -34,10 +34,10 @@ namespace TiacPraksaP1.Repositories.Repository
 
         public async Task<Product> CreateProduct(Product product)
         {
-            if (product != null)
+            if (product != null && !await _context.Products.AnyAsync(p => p.Id == product.Id))
             {
                 _context.Products.Add(product);
-                _context.SaveChanges();
+                _context.SaveChangesAsync();
                 return product;
             }
             return product;
