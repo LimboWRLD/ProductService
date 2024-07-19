@@ -9,3 +9,6 @@ GET {{Producs_HostAddress}}/throw
 ###
 
 GET {{Producs_HostAddress}}/throwNotFound
+###
+
+GET {{Producs_HostAddress}}/throwForbid

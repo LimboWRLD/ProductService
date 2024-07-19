@@ -3,17 +3,18 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using TiacPraksaP1.Data;
 using TiacPraksaP1.Repositories.Interfaces;
 using TiacPraksaP1.Repositories.Repository;
 using TiacPraksaP1.Services.Interfaces;
 using TiacPraksaP1.Services.Service;
 using TiacPraksaP1.Validators;
 using Microsoft.AspNetCore.Identity;
-using TiacPraksaP1.Models;
 using Microsoft.OpenApi.Models;
 using Products.Exceptions;
 using Products.Exceptions.CustomExceptions;
+using TiacPraksaP1.Models;
+using TiacPraksaP1.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 string _cors = "cors";
@@ -116,4 +117,6 @@ app.MapControllers();
 
 app.MapGet("/throw", (_) => throw new Exception());
 app.MapGet("/throwNotFound", (_) => throw new NotFoundException());
+app.MapGet("/throwForbid",(_)=> throw new ForbidException());
+
 app.Run();

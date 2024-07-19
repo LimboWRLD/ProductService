@@ -1,13 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
-using Products.DTOs.Put;
-using System.Data;
-using System.Linq;
-using TiacPraksaP1.Data;
 using TiacPraksaP1.DTOs.Post;
 using TiacPraksaP1.Models;
 using TiacPraksaP1.Services.Interfaces;
