@@ -24,10 +24,10 @@ namespace TiacPraksaP1.Repositories.Repository
             {
                 return user;
             }
-            return null;
+            return user;
         }
 
-        public async Task<User> DeleteUser(int id)
+        public async Task<User> DeleteUser(string id)
         {
             var user = await _context.Users.FindAsync(id);
             if (user != null)
@@ -38,7 +38,7 @@ namespace TiacPraksaP1.Repositories.Repository
             return user;
         }
 
-        public async Task<User> GetUser(int id)
+        public async Task<User> GetUser(string id)
         {
             return await _context.Users.FindAsync(id);
         }

@@ -26,7 +26,7 @@ namespace TiacPraksaP1.Services.Service
             return _mapper.Map<UserPostResponse>(createdUser);
         }
 
-        public async Task<UserDeleteResponse> DeleteUser(int id)
+        public async Task<UserDeleteResponse> DeleteUser(string id)
         {
             var deletedUser = await _userRepository.DeleteUser(id);
             return _mapper.Map<UserDeleteResponse>(deletedUser);
@@ -38,7 +38,7 @@ namespace TiacPraksaP1.Services.Service
             return _mapper.Map<IEnumerable<UserGetResponse>>(users);
         }
 
-        public async Task<UserGetResponse> GetSpecificUser(int id)
+        public async Task<UserGetResponse> GetSpecificUser(string id)
         {
             var user = await _userRepository.GetUser(id);
             return _mapper.Map<UserGetResponse>(user);

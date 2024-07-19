@@ -6,11 +6,11 @@ namespace TiacPraksaP1.Repositories.Interfaces
     {
         public Task<User> CreateUser(User user, string password);
 
-        public Task<User> DeleteUser(int id);
+        public Task<User> DeleteUser(string id);
 
         public Task<User> UpdateUser(User role);
 
-        public Task<User> GetUser(int id);
+        public Task<User> GetUser(string id);
 
         public Task<IEnumerable<User>> GetUsers();
     }

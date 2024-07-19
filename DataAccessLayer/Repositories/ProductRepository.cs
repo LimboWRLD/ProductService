@@ -35,7 +35,7 @@ namespace TiacPraksaP1.Repositories.Repository
             if (product != null && !await _context.Products.AnyAsync(p => p.Id == product.Id))
             {
                 _context.Products.Add(product);
-                _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
                 return product;
             }
             return product;

@@ -8,11 +8,11 @@ namespace TiacPraksaP1.Services.Interfaces
     {
         public Task<IEnumerable<UserGetResponse>> GetAllUsers();
 
-        public Task<UserGetResponse> GetSpecificUser(int id);
+        public Task<UserGetResponse> GetSpecificUser(string id);
 
         public Task<UserPostResponse> CreateUser(UserPostRequest User);
 
-        public Task<UserDeleteResponse> DeleteUser(int id);
+        public Task<UserDeleteResponse> DeleteUser(string id);
 
         public Task<UserPostResponse> UpdateUser(UserPostRequest user);
     }

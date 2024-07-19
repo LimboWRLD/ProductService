@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VTdSfZR8drK8LXAlqjxqj8iHyLbq+tEARd0OSOk0GAGHpRJ226gMhUOAC+RJUA1rWLv1kdZlSApbAiZGCukr6A==",
+  "dgSpecHash": "nu9fXjUN4Fzl+QYWYixAcGtCoh+3QXhimVZEK7XuTKcv2pL9vXEiNF8u9GVDka6BbPgfyK+B0EzWbWf3LmJE7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\namid\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\namid\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\namid\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\namid\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\namid\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\namid\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\namid\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
