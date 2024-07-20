@@ -117,6 +117,6 @@ app.MapControllers();
 
 app.MapGet("/throw", (_) => throw new Exception());
 app.MapGet("/throwNotFound", (_) => throw new NotFoundException());
-app.MapGet("/throwForbid",(_)=> throw new ForbidException());
+app.MapGet("/throwForbid", (_) => throw new ForbidException());
 
 app.Run();
