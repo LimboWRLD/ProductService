@@ -14,6 +14,6 @@ namespace TiacPraksaP1.Services.Interfaces
 
         public Task<UserDeleteResponse> DeleteUser(string id);
 
-        public Task<UserPostResponse> UpdateUser(UserPostRequest user);
+        public Task<UserPostResponse> UpdateUser(string id,UserPostRequest user);
     }
 }

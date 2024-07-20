@@ -15,6 +15,6 @@ namespace TiacPraksaP1.Services.Interfaces
 
         public Task<ProductDeleteResponse> DeleteProduct(int id);
 
-        public Task<ProductPostResponse> UpdateProduct(ProductPostRequest product);
+        public Task<ProductPostResponse> UpdateProduct(int id,ProductPostRequest product);
     }
 }

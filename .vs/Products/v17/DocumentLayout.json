@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69C40355-6061-429A-94D3-0EDA31694CE6}|Tests\\Tests.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{69C40355-6061-429A-94D3-0EDA31694CE6}|Tests\\Tests.csproj|solutionrelative:tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\dtos\\post\\userpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\post\\userpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69C40355-6061-429A-94D3-0EDA31694CE6}|Tests\\Tests.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tests\\servicetests\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,99 +27,28 @@
       "RelativeMoniker": "D:0:0:{69C40355-6061-429A-94D3-0EDA31694CE6}|Tests\\Tests.csproj|solutionrelative:tests\\servicetests\\productsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\dtos\\post\\productpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\post\\productpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\migrations\\productcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\productcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\migrations\\20240718100107_jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20240718100107_jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\migrations\\20240715092436_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20240715092436_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\presentationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\presentationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\products.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\products.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\dtos\\post\\userpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\post\\userpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\dtos\\post\\userpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\post\\userpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\dtos\\get\\usergetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\get\\usergetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\dtos\\delete\\userdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\delete\\userdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\dtos\\post\\productpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\post\\productpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\dtos\\delete\\productdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\delete\\productdeleteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TiacPraksaP1\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -117,266 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 323,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Migrations\\ProductContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\ProductContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Migrations\\ProductContextModelSnapshot.cs",
-              "RelativeToolTip": "DataAccessLayer\\Migrations\\ProductContextModelSnapshot.cs",
-              "ViewState": "AQIAAMkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T18:45:27.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Program.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Program.cs",
-              "RelativeToolTip": "PresentationLayer\\Program.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAAAHcAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T18:35:50.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\appsettings.json",
-              "RelativeDocumentMoniker": "PresentationLayer\\appsettings.json",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\appsettings.json",
-              "RelativeToolTip": "PresentationLayer\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-20T18:46:04.191Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\UserServiceTests.cs",
-              "RelativeDocumentMoniker": "Tests\\ServiceTests\\UserServiceTests.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\UserServiceTests.cs",
-              "RelativeToolTip": "Tests\\ServiceTests\\UserServiceTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T17:48:55.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "DataAccessLayer\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T18:45:48.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240718100107_jwt.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Migrations\\20240718100107_jwt.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20240718100107_jwt.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Migrations\\20240718100107_jwt.cs",
-              "RelativeToolTip": "DataAccessLayer\\Migrations\\20240718100107_jwt.cs",
-              "ViewState": "AQIAAMUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T18:45:18.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20240715092436_Initials.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Migrations\\20240715092436_Initials.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20240715092436_Initials.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Migrations\\20240715092436_Initials.cs",
-              "RelativeToolTip": "DataAccessLayer\\Migrations\\20240715092436_Initials.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T18:45:12.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IdentityController.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Controllers\\IdentityController.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\IdentityController.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Controllers\\IdentityController.cs",
-              "RelativeToolTip": "PresentationLayer\\Controllers\\IdentityController.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T18:40:04.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PresentationLayer.csproj",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\PresentationLayer.csproj",
-              "RelativeDocumentMoniker": "PresentationLayer\\PresentationLayer.csproj",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\PresentationLayer.csproj",
-              "RelativeToolTip": "PresentationLayer\\PresentationLayer.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-20T18:35:56.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Products.http",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Products.http",
-              "RelativeDocumentMoniker": "PresentationLayer\\Products.http",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Products.http",
-              "RelativeToolTip": "PresentationLayer\\Products.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-07-19T21:58:23.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserValidator.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Validators\\UserValidator.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Validators\\UserValidator.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Validators\\UserValidator.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Validators\\UserValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T21:43:48.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserPostResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Post\\UserPostResponse.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\Post\\UserPostResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Post\\UserPostResponse.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\Post\\UserPostResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T17:58:38.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserGetResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Get\\UserGetResponse.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\Get\\UserGetResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Get\\UserGetResponse.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\Get\\UserGetResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T20:50:53.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserPostRequest.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Post\\UserPostRequest.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\Post\\UserPostRequest.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Post\\UserPostRequest.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\Post\\UserPostRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T17:58:36.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Service\\UserService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Services\\Service\\UserService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T18:12:36.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserDeleteResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Delete\\UserDeleteResponse.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\Delete\\UserDeleteResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Delete\\UserDeleteResponse.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\Delete\\UserDeleteResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T20:50:43.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T17:58:30.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "TiacPraksaP1\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\TiacPraksaP1\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "TiacPraksaP1\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAA4wFIAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T20:48:24.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T20:46:15.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ProductPostResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Post\\ProductPostResponse.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\Post\\ProductPostResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Post\\ProductPostResponse.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\Post\\ProductPostResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T08:53:25.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ProductDeleteResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Delete\\ProductDeleteResponse.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\Delete\\ProductDeleteResponse.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Delete\\ProductDeleteResponse.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\Delete\\ProductDeleteResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T10:41:39.355Z"
             }
           ]
         },
@@ -387,27 +73,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Tests.csproj",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\Tests.csproj",
-              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\Tests.csproj",
-              "RelativeToolTip": "Tests\\Tests.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-19T21:51:12.864Z",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T22:34:13.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IdentityController.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Controllers\\IdentityController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\IdentityController.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Controllers\\IdentityController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\IdentityController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T22:33:43.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductsServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\ProductsServiceTests.cs",
-              "RelativeDocumentMoniker": "Tests\\ServiceTests\\ProductsServiceTests.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\ProductsServiceTests.cs",
-              "RelativeToolTip": "Tests\\ServiceTests\\ProductsServiceTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Title": "UserPostRequest.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Post\\UserPostRequest.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\Post\\UserPostRequest.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Post\\UserPostRequest.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\Post\\UserPostRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T18:04:13.468Z",
+              "WhenOpened": "2024-07-20T22:33:17.971Z",
               "EditorCaption": ""
             },
             {
@@ -417,51 +116,119 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAFQIAAAAAAAAAAAewGgIAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-07-20T18:54:45.734Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Program.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Program.cs",
+              "RelativeToolTip": "PresentationLayer\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwD0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T22:28:33.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAACgAAAAuAAAA",
+              "DocumentIndex": 7,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAcwB0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T18:10:00.62Z"
+              "WhenOpened": "2024-07-20T22:20:44.72Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Entities\\User.cs",
-              "RelativeToolTip": "DataAccessLayer\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "ProductsServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\ProductsServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ServiceTests\\ProductsServiceTests.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\ProductsServiceTests.cs",
+              "RelativeToolTip": "Tests\\ServiceTests\\ProductsServiceTests.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAiwGUAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T20:50:26.551Z"
+              "WhenOpened": "2024-07-20T21:59:55.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "DocumentIndex": 11,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBEAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T20:45:52.372Z"
+              "WhenOpened": "2024-07-20T21:59:34.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductPostRequest.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Post\\ProductPostRequest.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\Post\\ProductPostRequest.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\DTOs\\Post\\ProductPostRequest.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\Post\\ProductPostRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T21:55:29.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "PresentationLayer\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T21:55:01.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ServiceTests\\UserServiceTests.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\UserServiceTests.cs",
+              "RelativeToolTip": "Tests\\ServiceTests\\UserServiceTests.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAcwIIAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T21:53:46.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Service\\ProductService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\Service\\ProductService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T22:00:03.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Service\\UserService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\Service\\UserService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T22:17:08.473Z",
+              "EditorCaption": ""
             }
           ]
         }

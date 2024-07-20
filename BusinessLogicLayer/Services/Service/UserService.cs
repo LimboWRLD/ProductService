@@ -44,9 +44,11 @@ namespace TiacPraksaP1.Services.Service
             return _mapper.Map<UserGetResponse>(user);
         }
 
-        public async Task<UserPostResponse> UpdateUser(UserPostRequest user)
+        public async Task<UserPostResponse> UpdateUser(string id,UserPostRequest user)
         {
-            var updatedUser = await _userRepository.UpdateUser(_mapper.Map<User>(user));
+            var userToUpdate = _mapper.Map<User>(user);
+            userToUpdate.Id = id;
+            var updatedUser = await _userRepository.UpdateUser(userToUpdate);
             return _mapper.Map<UserPostResponse>(updatedUser);
         }
     }

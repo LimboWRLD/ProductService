@@ -24,9 +24,12 @@ namespace TiacPraksaP1.Services.Service
             return _mapper.Map<ProductPostResponse>(await _productRepository.CreateProduct(_mapper.Map<Product>(product))); 
         }
 
-        public async Task<ProductPostResponse> UpdateProduct(ProductPostRequest product)
+        public async Task<ProductPostResponse> UpdateProduct(int id,ProductPostRequest product)
         {
-            return _mapper.Map<ProductPostResponse>(await _productRepository.UpdateProduct(_mapper.Map<Product>(product)));
+            var productToUpdate = _mapper.Map<Product>(product);
+            productToUpdate.Id = id;
+            return _mapper.Map<ProductPostResponse>(await _productRepository.UpdateProduct(productToUpdate));
+          
         }
 
         public async Task<ProductDeleteResponse> DeleteProduct(int id)

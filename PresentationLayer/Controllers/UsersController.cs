@@ -38,7 +38,7 @@ namespace TiacPraksaP1.Controllers
             return Ok(response);
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet("{id:guid}")]
         public async Task<ActionResult<UserGetResponse>> GetUser(string id)
         {
             var response = await _userService.GetSpecificUser(id);
@@ -48,13 +48,13 @@ namespace TiacPraksaP1.Controllers
             }
             return Ok(response);
         }
-        [HttpPut]
-        public async Task<ActionResult<UserPostResponse>> UpdateUser(UserPostRequest userPostRequest)
+        [HttpPut("{id}")]
+        public async Task<ActionResult<UserPostResponse>> UpdateUser([FromBody] UserPostRequest userPostRequest, [FromRoute]string id)
         {
             var result = _userValidator.Validate(userPostRequest);
             if (result.IsValid)
             {
-                var response = await _userService.UpdateUser(userPostRequest);
+                var response = await _userService.UpdateUser(id,userPostRequest);
                 if (response != null)
                 {
                     return Ok(response);
@@ -64,7 +64,7 @@ namespace TiacPraksaP1.Controllers
             return BadRequest("User was not valid!");
         }
         [HttpPost]
-        public async Task<ActionResult<UserPostResponse>> AddUser(UserPostRequest request)
+        public async Task<ActionResult<UserPostResponse>> AddUser([FromBody] UserPostRequest request)
         {
             var result = _userValidator.Validate(request);
             if (result.IsValid)
@@ -79,8 +79,8 @@ namespace TiacPraksaP1.Controllers
             return BadRequest("User was not added because user fields were not valid.");
         }
 
-        [HttpDelete]
-        public async Task<ActionResult<UserDeleteResponse>> DeleteUser(string id)
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<UserDeleteResponse>> DeleteUser([FromRoute]string id)
         {
             var response = await _userService.DeleteUser(id);
             if (response == null)

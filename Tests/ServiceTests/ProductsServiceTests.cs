@@ -110,18 +110,18 @@ namespace Tests.ServiceTests
         public async Task Update_Product_When_Exists()
         {
             // Creating test DTOs
-            var productRequest = new ProductPostRequest { Id = 1, Description = "Updated Description", Name = "Updated Name", Price = 200.0f };
+            var productRequest = new ProductPostRequest { Description = "Updated Description", Name = "Updated Name", Price = 200.0f };
             var existingProduct = new Product { Id = 1, Name = "Old Name", Description = "Old Description", Price = 100.0f };
             var updatedProduct = new Product { Id = 1, Name = productRequest.Name, Description = productRequest.Description, Price = productRequest.Price };
             var productResponse = new ProductPostResponse { Id = 1, Name = productRequest.Name, Description = productRequest.Description, Price = productRequest.Price };
 
-            _productRepository.GetSpecificProduct(productRequest.Id).Returns(Task.FromResult(existingProduct));
+            _productRepository.GetSpecificProduct(existingProduct.Id).Returns(Task.FromResult(existingProduct));
             _mapper.Map<Product>(productRequest).Returns(updatedProduct);
             _productRepository.UpdateProduct(updatedProduct).Returns(Task.FromResult(updatedProduct));
             _mapper.Map<ProductPostResponse>(updatedProduct).Returns(productResponse);
 
             // Running method to update a product
-            var result = await _productService.UpdateProduct(productRequest);
+            var result = await _productService.UpdateProduct(existingProduct.Id,productRequest);
 
             // Checking if the values are not null and if they match
             result.Should().NotBeNull();
@@ -132,11 +132,13 @@ namespace Tests.ServiceTests
         public async Task Update_Product_When_NonExistant()
         {
             //Creating DTO
-            var productPostRequest = new ProductPostRequest { Id = 1, Name = "Test", Description = "Test", Price = 0 };
+            var productPostRequest = new ProductPostRequest { Name = "Test", Description = "Test", Price = 0 };
+            var product = new Product { Id = 1, Description = "1123", Name= "Test", Price= 1 };
 
-            _productRepository.GetSpecificProduct(productPostRequest.Id).Returns(Task.FromResult<Product>(null));
+            _productRepository.UpdateProduct(product).Returns(Task.FromResult<Product>(null));
+            _mapper.Map<Product>(productPostRequest).Returns(product);
 
-            var result = await _productService.UpdateProduct(productPostRequest);
+            var result = await _productService.UpdateProduct(1,productPostRequest);
 
             result.Should().BeNull();
         }

@@ -76,7 +76,7 @@ namespace Tests.ServiceTests
         {
             var userId = "1";
 
-            _userRepository.DeleteUser(userId).Returns(Task.FromResult((User)null));
+            _userRepository.DeleteUser(userId).Returns(Task.FromResult<User>(null));
 
             var result = await _userService.DeleteUser(userId);
 
@@ -128,7 +128,7 @@ namespace Tests.ServiceTests
         [Fact]
         public async Task Get_User_When_NonExistant()
         {
-            _userRepository.GetUser("1").Returns((User)null);
+            _userRepository.GetUser("1").Returns(Task.FromResult<User>(null));
 
             var result = await _userService.GetSpecificUser("1");
 
@@ -138,7 +138,7 @@ namespace Tests.ServiceTests
         [Fact]
         public async Task Update_User_When_Exist()
         {
-            var userPostRequest = new UserPostRequest { UserName = "Test", Email = "Test", Id = "1" };
+            var userPostRequest = new UserPostRequest { UserName = "Test", Email = "Test" };
             var userPostResponse = new UserPostResponse { UserName = "Test", Email = "Test", Id = "1" };
             var user = new User { Id = "1", UserName = "Test", Email = "Test" };
 
@@ -146,7 +146,7 @@ namespace Tests.ServiceTests
             _mapper.Map<UserPostResponse>(user).Returns(userPostResponse);
             _userRepository.UpdateUser(user).Returns(user);
 
-            var result = await _userService.UpdateUser(userPostRequest);
+            var result = await _userService.UpdateUser(user.Id,userPostRequest);
 
             result.Should().NotBeNull();
             result.Should().BeEquivalentTo(userPostResponse);
@@ -158,12 +158,12 @@ namespace Tests.ServiceTests
         public async Task Update_User_When_NonExistant()
         {
             var user = new User { UserName = "Test", Email = "Test", Id = "1" };
-            var userPostRequest = new UserPostRequest { UserName = "Test", Email = "Test", Id = "1" };
+            var userPostRequest = new UserPostRequest { UserName = "Test", Email = "Test" };
 
 
-            _userRepository.UpdateUser(user).Returns(Task.FromResult((User)null));
+            _userRepository.UpdateUser(user).Returns(Task.FromResult<User>(null));
 
-            var result = await _userService.UpdateUser(userPostRequest);
+            var result = await _userService.UpdateUser("1",userPostRequest);
 
             result.Should().BeNull();
         }

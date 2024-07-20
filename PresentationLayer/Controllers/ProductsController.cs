@@ -26,7 +26,7 @@ namespace TiacPraksaP1.Controllers
 
         //Create
         [HttpPost]
-        public async Task<ActionResult<ProductPostResponse>> AddProduct(ProductPostRequest product)
+        public async Task<ActionResult<ProductPostResponse>> AddProduct([FromBody]ProductPostRequest product)
         {
             var result = _productValidator.Validate(_mapper.Map<Product>(product));
             if(result.IsValid)
@@ -63,14 +63,15 @@ namespace TiacPraksaP1.Controllers
             return Ok(response);
         }
         //Update
-        [HttpPut]
+        [HttpPut("{id:int}")]
         [Authorize(Roles = "Admin")]
-        public async Task<ActionResult<List<ProductPostResponse>>> UpdateProduct(ProductPostRequest UpdatedProduct)
+        public async Task<ActionResult<List<ProductPostResponse>>> UpdateProduct([FromRoute]int id,[FromBody] ProductPostRequest UpdatedProduct)
         {
             var result = _productValidator.Validate(_mapper.Map<Product>(UpdatedProduct));
+
             if (result.IsValid)
             {
-                var response =await _productService.UpdateProduct(UpdatedProduct);
+                var response =await _productService.UpdateProduct(id,UpdatedProduct);
                 if (response == null)
                 {
                     return NotFound("No products were found");
@@ -83,7 +84,7 @@ namespace TiacPraksaP1.Controllers
 
         
         //Delete
-        [HttpDelete]
+        [HttpDelete("{id:int}")]
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<List<Product>>> DeleteProduct(int id)
         {
