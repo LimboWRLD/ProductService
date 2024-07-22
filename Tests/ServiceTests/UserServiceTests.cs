@@ -111,11 +111,13 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Get_Users_Shoud_Be_Empty()
+        public async Task Get_Users_Should_Be_Empty()
         {
-            var users = new List<UserGetResponse>();
+            var users = new List<User>();
+            var userGetResponses = new List<UserGetResponse>();
 
-            _userRepository.GetUsers().Returns(_mapper.Map<List<User>>(users));
+            _userRepository.GetUsers().Returns(users);
+            _mapper.Map<List<UserGetResponse>>(users).Returns(userGetResponses);
 
             var result = await _userService.GetAllUsers();
             result.Should().NotBeNull();
