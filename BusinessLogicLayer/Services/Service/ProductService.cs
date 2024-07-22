@@ -1,10 +1,10 @@
 ﻿using TiacPraksaP1.DTOs.Delete;
 using TiacPraksaP1.DTOs.Get;
 using TiacPraksaP1.DTOs.Post;
-using TiacPraksaP1.Repositories.Interfaces;
 using TiacPraksaP1.Services.Interfaces;
 using AutoMapper;
 using TiacPraksaP1.Models;
+using DataAccessLayer.Repositories.Interfaces;
 
 namespace TiacPraksaP1.Services.Service
 {

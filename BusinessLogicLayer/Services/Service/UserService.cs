@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
+using DataAccessLayer.Repositories.Interfaces;
 using TiacPraksaP1.DTOs.Delete;
 using TiacPraksaP1.DTOs.Get;
 using TiacPraksaP1.DTOs.Post;
 using TiacPraksaP1.Models;
-using TiacPraksaP1.Repositories.Interfaces;
 using TiacPraksaP1.Services.Interfaces;
 
 namespace TiacPraksaP1.Services.Service

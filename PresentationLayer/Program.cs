@@ -1,10 +1,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using TiacPraksaP1.Repositories.Interfaces;
-using TiacPraksaP1.Repositories.Repository;
 using TiacPraksaP1.Services.Interfaces;
 using TiacPraksaP1.Services.Service;
 using TiacPraksaP1.Validators;
@@ -14,6 +11,8 @@ using Products.Exceptions;
 using Products.Exceptions.CustomExceptions;
 using TiacPraksaP1.Models;
 using TiacPraksaP1.Data;
+using DataAccessLayer.Repository.Repositories;
+using DataAccessLayer.Repositories.Interfaces;
 
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
+using DataAccessLayer.Repositories.Interfaces;
 using FluentAssertions;
 using NSubstitute;
 using TiacPraksaP1.DTOs.Delete;
 using TiacPraksaP1.DTOs.Get;
 using TiacPraksaP1.DTOs.Post;
 using TiacPraksaP1.Models;
-using TiacPraksaP1.Repositories.Interfaces;
-using TiacPraksaP1.Repositories.Repository;
+using DataAccessLayer.Repository.Repositories;
 using TiacPraksaP1.Services.Interfaces;
 using TiacPraksaP1.Services.Service;
 
@@ -27,7 +27,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Add_User()
+        public async Task Add_User_Should_Be_NotNull()
         {
             var userPostRequest = new UserPostRequest { UserName = "Test", Email = "Test", Password = "123" };
             var user = new User { UserName = "Test", Email = "Test" };
@@ -44,7 +44,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Add_User_When_ReturnsNull()
+        public async Task Add_User_Should_Be_Null()
         {
             var userPostRequest = new UserPostRequest { Email = "Test", Password = "1", UserName = "Test" };
             var user = new User { };
@@ -57,7 +57,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Delete_User_When_Exists()
+        public async Task Delete_User_Should_Be_NotNull()
         {
             var user = new User { Id = "1", UserName = "1231", Email = "Test" };
             var userDeleteRespose = new UserDeleteResponse { UserName = "1231", Id = "1", Email = "Test" };
@@ -72,7 +72,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Delete_User_When_NonExistant()
+        public async Task Delete_User_Should_Be_Null()
         {
             var userId = "1";
 
@@ -84,7 +84,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Get_Users_When_Exist()
+        public async Task Get_Users_Should_Be_NotNull()
         {
             var users = new List<User>()
             {
@@ -111,11 +111,11 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Get_Users_When_NonExist()
+        public async Task Get_Users_Shoud_Be_Empty()
         {
-            var users = new List<User>();
+            var users = new List<UserGetResponse>();
 
-            _userRepository.GetUsers().Returns(users);
+            _userRepository.GetUsers().Returns(_mapper.Map<List<User>>(users));
 
             var result = await _userService.GetAllUsers();
             result.Should().NotBeNull();
@@ -123,7 +123,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Get_User_When_Exist()
+        public async Task Get_User_Should_Be_NotNull()
         {
             var user = new User { Id = "1", UserName = "Test", Email = "Test" };
             var userGetResonse = new UserGetResponse { Id = "1", UserName = "Test", Email = "Test" };
@@ -138,7 +138,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Get_User_When_NonExistant()
+        public async Task Get_User_Should_Be_Null()
         {
             _userRepository.GetUser("1").Returns(Task.FromResult<User>(null));
 
@@ -148,7 +148,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Update_User_When_Exist()
+        public async Task Update_User_Should_Be_NotNull()
         {
             var userPostRequest = new UserPostRequest { UserName = "Test", Email = "Test" };
             var userPostResponse = new UserPostResponse { UserName = "Test", Email = "Test", Id = "1" };
@@ -167,7 +167,7 @@ namespace Tests.ServiceTests
 
 
         [Fact]
-        public async Task Update_User_When_NonExistant()
+        public async Task Update_User_Should_Be_Null()
         {
             var user = new User { UserName = "Test", Email = "Test", Id = "1" };
             var userPostRequest = new UserPostRequest { UserName = "Test", Email = "Test" };

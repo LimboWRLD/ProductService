@@ -6,8 +6,8 @@ using TiacPraksaP1.DTOs.Delete;
 using TiacPraksaP1.DTOs.Get;
 using TiacPraksaP1.DTOs.Post;
 using TiacPraksaP1.Models;
-using TiacPraksaP1.Repositories.Interfaces;
 using TiacPraksaP1.Services.Service;
+using DataAccessLayer.Repositories.Interfaces;
 
 namespace Tests.ServiceTests
 {
@@ -24,7 +24,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Add_Product()
+        public async Task Add_Product_Should_Be_NotNull()
         {
             //Creating test DTOs
             var productRequest = new ProductPostRequest { Name = "Product1", Description = "Description1", Price = 100.0f };
@@ -43,7 +43,7 @@ namespace Tests.ServiceTests
             result.Should().BeEquivalentTo(productResponse);
         }
         [Fact]
-        public async Task Add_Product_WhenNull_ReturnsNull()
+        public async Task Add_Product_Should_Be_Null()
         {
             // Act
             var result = await _productService.CreateProduct(null);
@@ -53,7 +53,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Get_Products_When_Exist()
+        public async Task Get_Products_Should_Be_NotNull()
         {
             var products = new List<Product>()
             {
@@ -79,7 +79,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Get_Products_When_NonExistant()
+        public async Task Get_Products_Should_Be_Empty()
         {
             var products = new List<Product>();
             var productGetResponses = new List<ProductGetResponse>() ;
@@ -93,7 +93,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Get_Product_ById_Exists()
+        public async Task Get_Product_ById_Should_BeNotNull()
         {
             var product = new Product { Id = 1, Description = "Test", Name = "Test", Price = 0 };
             var productGetResponse = new ProductGetResponse { Id = product.Id, Description = "Test", Price = 0, Name = "Test" };
@@ -109,7 +109,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Get_Product_ById_NonExistant()
+        public async Task Get_Product_ById_Should_Be_Null()
         {
             var productId = 1;
 
@@ -121,7 +121,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Update_Product_When_Exists()
+        public async Task Update_Product_Should_Be_NotNull()
         {
             // Creating test DTOs
             var productRequest = new ProductPostRequest { Description = "Updated Description", Name = "Updated Name", Price = 200.0f };
@@ -143,7 +143,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Update_Product_When_NonExistant()
+        public async Task Update_Product_Should_Be_Null()
         {
             //Creating DTO
             var productPostRequest = new ProductPostRequest { Name = "Test", Description = "Test", Price = 0 };
@@ -157,7 +157,7 @@ namespace Tests.ServiceTests
             result.Should().BeNull();
         }
         [Fact]
-        public async Task Delete_Product_When_None_IsFound()
+        public async Task Delete_Product_Should_Be_Null()
         {
             //Creating test DTOs
             var productId = 1;
@@ -167,12 +167,12 @@ namespace Tests.ServiceTests
             var result = await _productRepository.DeleteProduct(productId);
 
             //Checking if the value is null
-            Assert.Null(result);
+            result.Should().BeNull();
 
         }
 
         [Fact]
-        public async Task Delete_Product_When_IsFound()
+        public async Task Delete_Product_Should_Be_NotNull()
         {
             //Creating test DTOs
             var productId = 1;
@@ -180,14 +180,14 @@ namespace Tests.ServiceTests
             var productDeleteResponse = new ProductDeleteResponse { Id = productId, Description = "Test", Name = "Test", Price = 10 };
 
             _productRepository.DeleteProduct(productId).Returns(product);
-            _mapper.Map<Product>(productDeleteResponse).Returns(product);
+            _mapper.Map<ProductDeleteResponse>(product).Returns(productDeleteResponse);
 
             //Running method to delete a product
-            var result = await _productRepository.DeleteProduct(productId);
+            var result = await _productService.DeleteProduct(productId);
 
             //Checking if the value is not null and if it matches the expected return type
-            Assert.NotNull(result);
-            Assert.Equal(product, result);
+            result.Should().NotBeNull();
+            result.Should().BeEquivalentTo(productDeleteResponse);
         }
     }
 
