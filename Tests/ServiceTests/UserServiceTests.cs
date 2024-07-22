@@ -84,7 +84,7 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
-        public async Task Get_Users()
+        public async Task Get_Users_When_Exist()
         {
             var users = new List<User>()
             {
@@ -108,6 +108,18 @@ namespace Tests.ServiceTests
 
             result.Should().NotBeNull();
             result.Should().BeEquivalentTo(userGetResponses);
+        }
+
+        [Fact]
+        public async Task Get_Users_When_NonExist()
+        {
+            var users = new List<User>();
+
+            _userRepository.GetUsers().Returns(users);
+
+            var result = await _userService.GetAllUsers();
+            result.Should().NotBeNull();
+            result.Should().BeEquivalentTo(users);
         }
 
         [Fact]

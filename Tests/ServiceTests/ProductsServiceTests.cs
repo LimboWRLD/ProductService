@@ -79,6 +79,20 @@ namespace Tests.ServiceTests
         }
 
         [Fact]
+        public async Task Get_Products_When_NonExistant()
+        {
+            var products = new List<Product>();
+            var productGetResponses = new List<ProductGetResponse>() ;
+
+            _productRepository.GetAllProducts().Returns(products);
+            _mapper.Map<List<ProductGetResponse>>(products).Returns(productGetResponses);
+
+            var result = await _productService.GetAllProducts();
+            result.Should().NotBeNull();
+            result.Should().BeEquivalentTo(products);
+        }
+
+        [Fact]
         public async Task Get_Product_ById_Exists()
         {
             var product = new Product { Id = 1, Description = "Test", Name = "Test", Price = 0 };
