@@ -14,6 +14,8 @@ C:\Users\namid\Documents\c#\TiacPraksaP1\Tests\bin\Debug\net8.0\FluentAssertions
 C:\Users\namid\Documents\c#\TiacPraksaP1\Tests\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\namid\Documents\c#\TiacPraksaP1\Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\namid\Documents\c#\TiacPraksaP1\Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\namid\Documents\c#\TiacPraksaP1\Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\namid\Documents\c#\TiacPraksaP1\Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\namid\Documents\c#\TiacPraksaP1\Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\namid\Documents\c#\TiacPraksaP1\Tests\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\namid\Documents\c#\TiacPraksaP1\Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll

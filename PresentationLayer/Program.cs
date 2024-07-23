@@ -13,6 +13,11 @@ using TiacPraksaP1.Models;
 using TiacPraksaP1.Data;
 using DataAccessLayer.Repository.Repositories;
 using DataAccessLayer.Repositories.Interfaces;
+using DataAccessLayer.Repository.Interfaces;
+using BusinessLogicLayer.Services.Interfaces;
+using DataAccessLayer.Entities;
+using BusinessLogicLayer.Services.Service;
+using BusinessLogicLayer.Validators;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,7 +28,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Products", Version = "v1" });
@@ -94,6 +99,9 @@ builder.Services.AddScoped<ProductValidator, ProductValidator>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<UserValidator, UserValidator>();
+builder.Services.AddScoped<IUserProductsRepository, UserProductsRepository>();
+builder.Services.AddScoped<IUserProductService, UserProductService>();
+builder.Services.AddScoped<UserProductValidator, UserProductValidator>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddExceptionHandler<AppExceptionHandler>();
 builder.Services.AddExceptionHandler<GeneralExceptionHandler>();

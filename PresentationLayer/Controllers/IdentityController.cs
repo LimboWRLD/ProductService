@@ -50,6 +50,7 @@ namespace TiacPraksaP1.Controllers
             {
                 new Claim(ClaimTypes.Name, user.UserName),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(ClaimTypes.NameIdentifier, user.Id)
             };
             authClaims.AddRange(userRoles.Select(role => new Claim(ClaimTypes.Role, role)));
 
