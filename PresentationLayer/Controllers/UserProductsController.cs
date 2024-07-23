@@ -85,8 +85,8 @@ namespace PresentationLayer.Controllers
             return BadRequest("UserProduct was not valid " + result.ToString());
         }
 
-        [HttpDelete("{id:int}")]
-        public async Task<ActionResult<ProductDeleteResponse>> DeleteUserProduct([FromRoute]int productId)
+        [HttpDelete]
+        public async Task<ActionResult<ProductDeleteResponse>> DeleteUserProduct(int productId)
         {
             var response = await _userProductService.DeleteUserProduct(productId);
             if(response != null)

@@ -39,6 +39,7 @@ namespace DataAccessLayer.Repository.Repositories
             var userId = GetUserId();
             if (product != null)
             {
+                product.OwnerId=userId;
                 _context.Products.Add(product);
                 await _context.SaveChangesAsync();
                 return product;

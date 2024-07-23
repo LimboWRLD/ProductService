@@ -14,7 +14,6 @@ namespace BusinessLogicLayer.Validators
         public UserProductValidator() 
         {
             RuleFor(userProduct=> userProduct.ProductId).NotEmpty();
-            RuleFor(userProduct=> userProduct.UserId).NotEmpty();
         }
 
     }

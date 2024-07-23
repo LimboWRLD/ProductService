@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
@@ -39,7 +40,8 @@ namespace DataAccessLayer.Repository.Repositories
 
         public async Task<UserProduct> DeleteUserProduct( int ProductId)
         {
-            var userProduct = _dbContext.UserProduts.FirstOrDefault(x => x.UserId == GetUserId() && x.ProductId==ProductId);
+            var userId = GetUserId();
+            var userProduct = _dbContext.UserProduts.FirstOrDefault(x => x.UserId == userId && x.ProductId==ProductId);
             if(userProduct != null)
             {
                 _dbContext.UserProduts.Remove(userProduct);
