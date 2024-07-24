@@ -136,6 +136,7 @@ namespace Tests.ServiceTests
 
             _mapper.Map<UserProduct>(userProductPostRequest).Returns(userProduct);
             _userProductsRepository.UpdateUserProduct(userProduct.ProductId, userProduct).Returns(Task.FromResult<UserProduct>(userProduct));
+            _mapper.Map<UserProductPostResponse>(userProduct).Returns(userProductPostResponse);
 
             var result = await _userProductService.UpdateUserProduct(userProduct.ProductId, userProductPostRequest);
 

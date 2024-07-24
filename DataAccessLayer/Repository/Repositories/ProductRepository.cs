@@ -22,7 +22,7 @@ namespace DataAccessLayer.Repository.Repositories
 
         public async Task<Product> UpdateProduct(Product product)
         {
-            var oldProduct = await _context.Products.FirstOrDefaultAsync(p => p.Id == product.Id);
+            var oldProduct = await _context.Products.FirstOrDefaultAsync(p => p.Id == product.Id && p.OwnerId == GetUserId());
             if (oldProduct != null)
             {
                 oldProduct.Name = product.Name;
@@ -62,8 +62,9 @@ namespace DataAccessLayer.Repository.Repositories
 
         public async Task<IEnumerable<Product>> GetAllProducts()
         {
+            var userProducts =await _context.UserProduts.Where(x => x.UserId == GetUserId()).ToListAsync();
             return await _context.Products
-                                .Where(product => _context.UserProduts.Any(up => up.ProductId == product.Id && up.UserId == GetUserId())).ToListAsync();
+                                .Where(product => userProducts.Any(up=> up.ProductId == product.Id)).ToListAsync();
         }
 
         public async Task<Product> GetSpecificProduct(int ProductId)

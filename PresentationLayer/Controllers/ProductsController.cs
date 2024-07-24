@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using BusinessLogicLayer.DTOs.Post;
+using BusinessLogicLayer.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TiacPraksaP1.DTOs.Post;
@@ -14,14 +16,16 @@ namespace TiacPraksaP1.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
+        private readonly IUserProductService _userProductService;
         private readonly ProductValidator _productValidator;
         private readonly IMapper _mapper;
 
-        public ProductsController(IProductService productService, ProductValidator productValidator, IMapper mapper)
+        public ProductsController(IProductService productService, ProductValidator productValidator, IMapper mapper, IUserProductService userProductService)
         {
             _productService = productService;
             _productValidator = productValidator;
             _mapper = mapper;
+            _userProductService = userProductService;
         }
 
         //Create
@@ -32,10 +36,12 @@ namespace TiacPraksaP1.Controllers
             if(result.IsValid)
             {
                 var response = await _productService.CreateProduct(product);
+                 
                 if (response == null)
                 {
                     return BadRequest("Adding went wrong.");
                 }
+                await _userProductService.CreateUserProduct(new UserProductPostRequest { ProductId = response.Id });
                 return Ok(response);
             }
             return BadRequest("Product fields were not valid" + result.ToString());

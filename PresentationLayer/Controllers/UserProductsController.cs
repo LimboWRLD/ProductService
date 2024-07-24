@@ -70,12 +70,12 @@ namespace PresentationLayer.Controllers
         }
 
         [HttpPut("{id:int}")]
-        public async Task<ActionResult<UserPostResponse>> UpdateUserProduct([FromBody]UserProductPostRequest userPostRequest, [FromRoute] int productId)
+        public async Task<ActionResult<UserPostResponse>> UpdateUserProduct([FromBody]UserProductPostRequest userPostRequest, [FromRoute] int id)
         {
             var result = _userProductValidator.Validate(_mapper.Map<UserProduct>(userPostRequest));
             if(result.IsValid)
             {
-                var response = await _userProductService.UpdateUserProduct(productId, userPostRequest);
+                var response = await _userProductService.UpdateUserProduct(id, userPostRequest);
                 if(response == null) 
                 {
                     return BadRequest("Updating went wrong...");
