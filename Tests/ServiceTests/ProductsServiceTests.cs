@@ -189,6 +189,71 @@ namespace Tests.ServiceTests
             result.Should().NotBeNull();
             result.Should().BeEquivalentTo(productDeleteResponse);
         }
+
+        [Fact]
+        public async Task Get_BasicStatistics_Should_Be_Not_Null()
+        {
+
+            var stats = new Dictionary<string, string>();
+            stats.Add("TotalProducts", "10");
+            stats.Add("AveragePrice", "100");
+            stats.Add("LowestPrice", "1");
+            stats.Add("HighestPrice", "150");
+            stats.Add("TotalAssingments", "10");
+            _productRepository.GetBasicStatistics().Returns(stats);
+
+            var result = await _productService.GetBasicStatistics();
+
+            result.Should().NotBeNull();
+            result.Should().BeEquivalentTo(stats);
+        }
+
+        [Fact]
+        public async Task Get_BasicStatistics_Should_Return_Empty()
+        {
+            var stats = new Dictionary<string, string>();
+
+            _productRepository.GetBasicStatistics().Returns(stats);
+            
+            var result =await _productService.GetBasicStatistics();
+
+            result.Should().NotBeNull();
+            result.Should().BeEmpty();
+        }
+
+        [Fact]
+        public async Task Get_MostPopular_Should_Be_NotNull()
+        {
+            var listOfDictionaries = new List<Dictionary<string, string>>();
+
+            var testDictionary = new Dictionary<string, string>();
+            testDictionary.Add("ProductId", "1");
+            testDictionary.Add("ProductName", "Test");
+            testDictionary.Add("AssingmentCount", "10");
+            testDictionary.Add("OwnerId", "131231");
+
+            listOfDictionaries.Add(testDictionary);
+
+            _productRepository.GetMostPopular(null).Returns(listOfDictionaries);
+
+
+            var result =await _productService.GetMostPopular(null);
+
+            result.Should().NotBeNull();
+            result.Should().BeEquivalentTo(listOfDictionaries);
+        }
+
+        [Fact]
+        public async Task Get_MostPopular_Should_Be_Empty()
+        {
+            var listOfDictionaries = new List<Dictionary<string, string>>();
+
+            _productRepository.GetMostPopular(null).Returns(listOfDictionaries);
+
+            var result = await _productService.GetMostPopular(null);
+
+            result.Should().BeEmpty();
+        }
     }
 
 

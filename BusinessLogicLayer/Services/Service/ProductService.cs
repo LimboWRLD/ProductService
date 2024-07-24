@@ -49,6 +49,14 @@ namespace TiacPraksaP1.Services.Service
             return _mapper.Map<ProductGetResponse>(await _productRepository.GetSpecificProduct(id));
         }
 
+        public async Task<Dictionary<string, string>> GetBasicStatistics()
+        {
+            return await _productRepository.GetBasicStatistics();
+        }
 
+        public async Task<IEnumerable<Dictionary<string, string>>> GetMostPopular(int? range)
+        {
+            return await _productRepository.GetMostPopular(range);
+        }
     }
 }

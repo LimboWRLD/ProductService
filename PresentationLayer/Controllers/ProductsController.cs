@@ -58,6 +58,29 @@ namespace TiacPraksaP1.Controllers
             return Ok(response);
         }
 
+        [HttpGet("Staticstics")]
+        public async Task<ActionResult<Dictionary<string, string>>> GetBasicStatistics()
+        {
+            var response = await _productService.GetBasicStatistics();
+            if (response == null)
+            {
+                return BadRequest("Something went wrong");
+            }
+            return Ok(response);
+        }
+
+        [HttpGet("Staticstics/MostPopular")]
+        public async Task<ActionResult<Dictionary<string, string>>> GetMostPopular(int? range)
+        {
+            var response = await _productService.GetMostPopular(range);
+            if (response == null)
+            {
+                return BadRequest("Something went wrong");
+            }
+            return Ok(response);
+        }
+
+
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {

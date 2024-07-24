@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69C40355-6061-429A-94D3-0EDA31694CE6}|Tests\\Tests.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tests\\servicetests\\productsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C40355-6061-429A-94D3-0EDA31694CE6}|Tests\\Tests.csproj|solutionrelative:tests\\servicetests\\productsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\repository\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\controllers\\userproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\userproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\repository\\repositories\\userproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\repositories\\userproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C40355-6061-429A-94D3-0EDA31694CE6}|Tests\\Tests.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tests\\servicetests\\productsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C40355-6061-429A-94D3-0EDA31694CE6}|Tests\\Tests.csproj|solutionrelative:tests\\servicetests\\productsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\repository\\interfaces\\istatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\interfaces\\istatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\dataaccesslayer\\repository\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8991AE-C98B-4298-AD4A-843253DC360E}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\businesslogiclayer\\mappings\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF83F58-9792-468A-BBCE-3972D6370E82}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mappings\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\presentationlayer\\controllers\\userproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3EF248-7357-48A4-A3F4-AA60AB121F16}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\userproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69C40355-6061-429A-94D3-0EDA31694CE6}|Tests\\Tests.csproj|c:\\users\\namid\\documents\\c#\\tiacpraksap1\\tests\\servicetests\\userproductservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,8 +57,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1008,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 777,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +66,133 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repository\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repository\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:59:14.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:55:06.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Services\\Service\\ProductService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\Service\\ProductService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAADUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:23:00.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductsServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\ProductsServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ServiceTests\\ProductsServiceTests.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\ProductsServiceTests.cs",
+              "RelativeToolTip": "Tests\\ServiceTests\\ProductsServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:13:37.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repository\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repository\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:56:11.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserProductsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repository\\Repositories\\UserProductsRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\Repositories\\UserProductsRepository.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repository\\Repositories\\UserProductsRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\Repositories\\UserProductsRepository.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T13:29:53.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "PresentationLayer\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAAEYAAAAAAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAwwDoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T08:22:37.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Program.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Program.cs",
+              "RelativeToolTip": "PresentationLayer\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvx0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:24:10.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IStatistics.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repository\\Interfaces\\IStatistics.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\Interfaces\\IStatistics.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\DataAccessLayer\\Repository\\Interfaces\\IStatistics.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\Interfaces\\IStatistics.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:49:29.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Mappings\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Mappings\\ProductProfile.cs",
+              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\BusinessLogicLayer\\Mappings\\ProductProfile.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Mappings\\ProductProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:23:45.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UserProductServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\UserProductServiceTests.cs",
               "RelativeDocumentMoniker": "Tests\\ServiceTests\\UserProductServiceTests.cs",
@@ -55,12 +200,11 @@
               "RelativeToolTip": "Tests\\ServiceTests\\UserProductServiceTests.cs",
               "ViewState": "AQIAAHkAAAAAAAAAAAAAAIoAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T08:15:55.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T08:15:55.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "UserProductsController.cs",
               "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\PresentationLayer\\Controllers\\UserProductsController.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\UserProductsController.cs",
@@ -68,26 +212,12 @@
               "RelativeToolTip": "PresentationLayer\\Controllers\\UserProductsController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAE0AAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T08:14:53.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductsServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\ProductsServiceTests.cs",
-              "RelativeDocumentMoniker": "Tests\\ServiceTests\\ProductsServiceTests.cs",
-              "ToolTip": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\Tests\\ServiceTests\\ProductsServiceTests.cs",
-              "RelativeToolTip": "Tests\\ServiceTests\\ProductsServiceTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T08:13:37.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T08:14:53.466Z"
             }
           ]
         },
         {
-          "DockedWidth": 235,
+          "DockedWidth": 466,
           "SelectedChildIndex": -1,
           "Children": [
             {

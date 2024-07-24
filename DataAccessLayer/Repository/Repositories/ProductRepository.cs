@@ -62,9 +62,11 @@ namespace DataAccessLayer.Repository.Repositories
 
         public async Task<IEnumerable<Product>> GetAllProducts()
         {
-            var userProducts =await _context.UserProduts.Where(x => x.UserId == GetUserId()).ToListAsync();
-            return await _context.Products
-                                .Where(product => userProducts.Any(up=> up.ProductId == product.Id)).ToListAsync();
+            var products = await _context.Products
+                .Where(product => _context.UserProduts
+                    .Any(up => up.UserId == GetUserId() && up.ProductId == product.Id))
+                .ToListAsync();
+            return products;
         }
 
         public async Task<Product> GetSpecificProduct(int ProductId)
@@ -74,5 +76,50 @@ namespace DataAccessLayer.Repository.Repositories
 
             // return await _context.Products.FirstOrDefaultAsync(x => x.Id == ProductId);
         }
+
+        public async Task<Dictionary<string,string>> GetBasicStatistics()
+        {
+            var numberOfProducts = await _context.Products.CountAsync();    
+            var averagePrice = await _context.Products.AverageAsync(x=> x.Price);
+            var lowestPrice =await _context.Products.OrderBy(x => x.Price).Select(x=> x.Price).FirstOrDefaultAsync();
+            var highestPrice = await _context.Products.OrderByDescending(x => x.Price).Select(x => x.Price).FirstOrDefaultAsync();
+            var totalAssignedProducts = await _context.UserProduts.CountAsync();
+
+            Dictionary<string, string> result = new Dictionary<string, string>();
+            result.Add("numberOfProducts", numberOfProducts.ToString());
+            result.Add("averagePrice", averagePrice.ToString());
+            result.Add("lowestPrice", lowestPrice.ToString());
+            result.Add("highestPrice", highestPrice.ToString());
+            result.Add("totalAssignedProducts", totalAssignedProducts.ToString());
+            return result;
+        }
+
+        public async Task<IEnumerable<Dictionary<string, string>>> GetMostPopular(int? range)
+        {
+            var popularAssingedProducts = _context.UserProduts.GroupBy(x => x.ProductId).Select(x => new
+            {
+                productId = x.Key,
+                count = x.Count()
+            }).OrderByDescending(x => x.count).AsQueryable();
+
+            if (range.HasValue)
+            {
+                popularAssingedProducts = popularAssingedProducts.Take(range.Value);
+            }
+
+            var topProducts = new List<Dictionary<string,string>>();
+            
+            foreach (var product in popularAssingedProducts)
+            {
+                var dictionary = new Dictionary<string, string>();
+                dictionary.Add("ProductId", product.productId.ToString());
+                dictionary.Add("ProductName", await _context.Products.Where(x => x.Id == product.productId).Select(x => x.Name).FirstOrDefaultAsync());
+                dictionary.Add("CountOfAssingments", product.count.ToString());
+                dictionary.Add("Owner", await _context.Products.Where(x => x.Id == product.productId).Select(x => x.OwnerId).FirstOrDefaultAsync());
+                topProducts.Add(dictionary);
+            }
+            return topProducts;
+        }
+       
     }
 }

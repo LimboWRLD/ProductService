@@ -2,7 +2,7 @@
 
 namespace DataAccessLayer.Repositories.Interfaces
 {
-    public interface IProductRepository
+    public interface IProductRepository : IStatistics
     {
         public Task<Product> CreateProduct(Product product);
 
@@ -13,5 +13,6 @@ namespace DataAccessLayer.Repositories.Interfaces
         public Task<IEnumerable<Product>> GetAllProducts();
 
         public Task<Product> GetSpecificProduct(int id);
+        
     }
 }

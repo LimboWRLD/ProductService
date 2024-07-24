@@ -1,11 +1,12 @@
-﻿using TiacPraksaP1.DTOs.Delete;
+﻿using DataAccessLayer.Repositories.Interfaces;
+using TiacPraksaP1.DTOs.Delete;
 using TiacPraksaP1.DTOs.Get;
 using TiacPraksaP1.DTOs.Post;
 using TiacPraksaP1.Models;
 
 namespace TiacPraksaP1.Services.Interfaces
 {
-    public interface IProductService
+    public interface IProductService :IStatistics
     {
         public Task<IEnumerable<ProductGetResponse>> GetAllProducts();
 
