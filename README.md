@@ -41,6 +41,13 @@ The implementation of the 3-layered architecture in .NET involves three main lay
 - **3-Layer Architecture**: Focus on the "interface segregation" principle.
 - **Authentication and Authorization**: Implement JWT-based authentication and authorization.
 
+### Additional Specifications
+
+- **Many-to-Many Relationship**: Create a table for linking users and products. Each user can have multiple products, and each product can have multiple users.
+- **Product Deletion**: Only the user who added the product (owner) can delete that product. This means that only the user who created the product can perform the delete operation.
+- **Product Assignment**: Products can be assigned to other users. This functionality allows a single product to be associated with multiple users.
+- **Product Listing**: The API for listing products should return only the products assigned to a specific user. This means that when a user requests a list of products, they will receive only the products assigned to them.
+
 ## Project Structure
 
 - **DataLayer (ClassLibrary)**
@@ -66,6 +73,7 @@ The implementation of the 3-layered architecture in .NET involves three main lay
 3. Build the solution using Visual Studio or the .NET CLI.
 4. Run the project using Visual Studio or the .NET CLI.
 
-```bash
-dotnet build
-dotnet run --project PresentationLayer
+    ```bash
+    dotnet build
+    dotnet run --project PresentationLayer
+
