@@ -18,6 +18,7 @@ using BusinessLogicLayer.Services.Interfaces;
 using DataAccessLayer.Entities;
 using BusinessLogicLayer.Services.Service;
 using BusinessLogicLayer.Validators;
+using System.Reflection;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -57,6 +58,9 @@ builder.Services.AddSwaggerGen(c =>
             new string[] {}
         }
     });
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile); 
+    c.IncludeXmlComments(xmlPath);
 });
 
 builder.Services.AddIdentity<User,IdentityRole>()
@@ -91,7 +95,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddXmlDataContractSerializerFormatters();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();

@@ -27,7 +27,11 @@ namespace TiacPraksaP1.Controllers
             _mapper = mapper;
             _userProductService = userProductService;
         }
-
+        /// <summary>
+        /// This method first verifies that the product is valid according to the product validator class, if it is valid it is created 
+        /// </summary>
+        /// <param name="product"></param>
+        /// <returns></returns>
         //Create
         [HttpPost]
         public async Task<ActionResult<ProductPostResponse>> AddProduct([FromBody]ProductPostRequest product)
@@ -46,6 +50,10 @@ namespace TiacPraksaP1.Controllers
             }
             return BadRequest("Product fields were not valid" + result.ToString());
         }
+        /// <summary>
+        /// This method gets all the products that the user is assosiated with.
+        /// </summary>
+        /// <returns></returns>
         //Get 
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetAllProducts()
@@ -57,7 +65,10 @@ namespace TiacPraksaP1.Controllers
             }
             return Ok(response);
         }
-
+        /// <summary>
+        /// This method returns a dictionary with the basic statistic info of the product table
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("Staticstics")]
         public async Task<ActionResult<Dictionary<string, string>>> GetBasicStatistics()
         {
@@ -68,7 +79,11 @@ namespace TiacPraksaP1.Controllers
             }
             return Ok(response);
         }
-
+        /// <summary>
+        /// This method returns a list of most popular products, if range is defined it returns with the defined range, if not it returns the default range
+        /// </summary>
+        /// <param name="range"></param>
+        /// <returns></returns>
         [HttpGet("Staticstics/MostPopular")]
         public async Task<ActionResult<Dictionary<string, string>>> GetMostPopular(int? range)
         {
@@ -80,7 +95,11 @@ namespace TiacPraksaP1.Controllers
             return Ok(response);
         }
 
-
+        /// <summary>
+        /// This method returns a product if that product is assinged to the user
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
@@ -91,7 +110,12 @@ namespace TiacPraksaP1.Controllers
             }
             return Ok(response);
         }
-
+        /// <summary>
+        /// This method updates a product if it exists, only admin users can edit products
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="UpdatedProduct"></param>
+        /// <returns></returns>
         //Update
         [HttpPut("{id:int}")]
         [Authorize(Roles = "Admin")]
@@ -112,7 +136,11 @@ namespace TiacPraksaP1.Controllers
         }
         
 
-        
+        /// <summary>
+        /// This method deletes a product if it exists, only admin users can delete
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         //Delete
         [HttpDelete("{id:int}")]
         [Authorize(Roles = "Admin")]

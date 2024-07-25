@@ -307,6 +307,7 @@ C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\bin\Debug\net8.0\Micr
 C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\bin\Debug\net8.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
 C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\bin\Debug\net8.0\Microsoft.Build.dll
 C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\bin\Debug\net8.0\Microsoft.Build.Framework.dll
@@ -582,3 +583,5 @@ C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\obj\Debug\net8.0\refi
 C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\obj\Debug\net8.0\PresentationLayer.pdb
 C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\obj\Debug\net8.0\PresentationLayer.genruntimeconfig.cache
 C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\obj\Debug\net8.0\ref\PresentationLayer.dll
+C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\bin\Debug\net8.0\PresentationLayer.xml
+C:\Users\namid\Documents\c#\TiacPraksaP1\PresentationLayer\obj\Debug\net8.0\PresentationLayer.xml

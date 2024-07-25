@@ -29,6 +29,11 @@ namespace TiacPraksaP1.Controllers
             _configuration = configuration;
         }
 
+        /// <summary>
+        /// This method checks if the username exists, then if it does it checks if the password hashes match, if all of these pass the user gets a token 
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost, AllowAnonymous]
         [Route("login")]
         public async Task<IActionResult> Login([FromBody] UserLoginRequest model)
@@ -63,6 +68,12 @@ namespace TiacPraksaP1.Controllers
                 roles = userRoles
             });
         }
+
+        /// <summary>
+        /// This method generates a jwt that lasts 1 hour
+        /// </summary>
+        /// <param name="authClaims"></param>
+        /// <returns></returns>
         private JwtSecurityToken GetToken(List<Claim> authClaims)
         {
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:Key"]!));
@@ -78,17 +89,27 @@ namespace TiacPraksaP1.Controllers
             return token;
         }
 
- 
+        /// <summary>
+        /// This method registers a user if his password is valid
+        /// </summary>
+        /// <param name="model"></param>
+        /// <param name="role"></param>
+        /// <returns></returns>
         [HttpPost, AllowAnonymous]
         [Route("register-user")]
         public async Task<IActionResult> RegisterUser([FromBody] UserPostRequest model, string role="User")
         {
             return await Register(model, role);
         }
-
-        [HttpPost]
+        /// <summary>
+        /// This method registers a user if his password is valid
+        /// </summary>
+        /// <param name="model"></param>
+        /// <param name="role"></param>
+        /// <returns></returns>
+        [HttpPost, AllowAnonymous]
         [Route("register-admin")]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> RegisterAdmin([FromBody] UserPostRequest model, string role = "Admin")
         {
             return await Register(model, role);

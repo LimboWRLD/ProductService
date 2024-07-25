@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sc1KDllzVpD1wFLDq8hJBbw9YA73EU7ewB1AD+4c1bZDUoyWQv611mBDhTgVW7qBUujFSntVZXn59/cFQZ86MA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\ProductsFrontend\\ProductsFrontend.Server\\ProductsFrontend.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\namid\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.7\\microsoft.aspnetcore.spaproxy.8.0.7.nupkg.sha512",
+    "C:\\Users\\namid\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\namid\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\namid\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\namid\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\namid\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\namid\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

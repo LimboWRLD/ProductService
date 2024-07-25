@@ -30,7 +30,11 @@ namespace PresentationLayer.Controllers
             _userProductValidator = userProductValidator;
             _mapper = mapper;
         }
-
+        /// <summary>
+        /// This method sends first validates the post request sent, if valid the userProduct is added
+        /// </summary>
+        /// <param name="userProductPostRequest"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult<ProductPostResponse>> AddUserProduct([FromBody] UserProductPostRequest userProductPostRequest)
         {
@@ -46,7 +50,10 @@ namespace PresentationLayer.Controllers
             }
             return BadRequest("UserProduct fields were not valid " + result.ToString());
         }
-
+        /// <summary>
+        /// This method returns all the userProducts in the database
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ActionResult<List<UserProductGetResponse>>> GetAllUserProducts()
         {
@@ -57,7 +64,11 @@ namespace PresentationLayer.Controllers
             }
             return Ok(response);
         }
-
+        /// <summary>
+        /// This method returns a specific userProduct from the database
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id:int}")]
         public async Task<ActionResult<UserProductGetResponse>>GetUserProduct(int id)
         {
@@ -68,14 +79,19 @@ namespace PresentationLayer.Controllers
             }
             return Ok(response);
         }
-
-        [HttpPut("{id:int}")]
-        public async Task<ActionResult<UserPostResponse>> UpdateUserProduct([FromBody]UserProductPostRequest userPostRequest, [FromRoute] int id)
+        /// <summary>
+        /// This method updates the specific userProduct with the passed productId, if the request is valid
+        /// </summary>
+        /// <param name="userPostRequest"></param>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpPut("{productId:int}")]
+        public async Task<ActionResult<UserPostResponse>> UpdateUserProduct([FromBody]UserProductPostRequest userPostRequest, [FromRoute] int productId)
         {
             var result = _userProductValidator.Validate(_mapper.Map<UserProduct>(userPostRequest));
             if(result.IsValid)
             {
-                var response = await _userProductService.UpdateUserProduct(id, userPostRequest);
+                var response = await _userProductService.UpdateUserProduct(productId, userPostRequest);
                 if(response == null) 
                 {
                     return BadRequest("Updating went wrong...");
@@ -84,7 +100,11 @@ namespace PresentationLayer.Controllers
             }
             return BadRequest("UserProduct was not valid " + result.ToString());
         }
-
+        /// <summary>
+        /// This method deletes the passed userProduct from the database that has the passed productId and userId 
+        /// </summary>
+        /// <param name="productId"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<ActionResult<ProductDeleteResponse>> DeleteUserProduct(int productId)
         {
