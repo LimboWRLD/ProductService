@@ -8,7 +8,7 @@ namespace BusinessLogicLayer.DTOs.Get
 {
     public class UserProductGetResponse
     {
-        public string UsertId { get; set; } 
+        public string UserId { get; set; } 
 
         public int ProductId { get; set; }  
     }

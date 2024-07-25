@@ -1,6 +1,7 @@
 ﻿using DataAccessLayer.Repositories.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System.Security.Claims;
 using TiacPraksaP1.Data;
 using TiacPraksaP1.Models;
@@ -11,18 +12,20 @@ namespace DataAccessLayer.Repository.Repositories
     {
         private readonly AppDbContext _context;
         private readonly IHttpContextAccessor _httpContext;
+        private readonly IConfiguration _configuration;
 
-        public ProductRepository(AppDbContext productContext, IHttpContextAccessor httpContext)
+        public ProductRepository(AppDbContext productContext, IHttpContextAccessor httpContext, IConfiguration configuration)
         {
             _context = productContext;
             _httpContext = httpContext;
+            _configuration = configuration;
         }
 
         private string GetUserId() => _httpContext.HttpContext?.User?.FindFirstValue(ClaimTypes.NameIdentifier);
 
         public async Task<Product> UpdateProduct(Product product)
         {
-            var oldProduct = await _context.Products.FirstOrDefaultAsync(p => p.Id == product.Id && p.OwnerId == GetUserId());
+            var oldProduct = await _context.Products.FirstOrDefaultAsync(p => p.Id == product.Id);
             if (oldProduct != null)
             {
                 oldProduct.Name = product.Name;
@@ -49,8 +52,7 @@ namespace DataAccessLayer.Repository.Repositories
 
         public async Task<Product> DeleteProduct(int ProuctId)
         {
-            var userId = GetUserId();
-            var toDelete = _context.Products.FirstOrDefault(p => p.Id == ProuctId && p.OwnerId == userId);
+            var toDelete = _context.Products.FirstOrDefault(p => p.Id == ProuctId );
             if (toDelete != null)
             {
                 _context.Products.Remove(toDelete);
@@ -102,10 +104,11 @@ namespace DataAccessLayer.Repository.Repositories
                 count = x.Count()
             }).OrderByDescending(x => x.count).AsQueryable();
 
-            if (range.HasValue)
-            {
-                popularAssingedProducts = popularAssingedProducts.Take(range.Value);
-            }
+            var defaultRange = _configuration["ConstrainsApi:DefaultNumberOfPopular"];
+            var numberOfElementsToTake = range.HasValue ? range.Value : int.Parse(defaultRange);
+
+            popularAssingedProducts = popularAssingedProducts.Take(numberOfElementsToTake);
+            
 
             var topProducts = new List<Dictionary<string,string>>();
             

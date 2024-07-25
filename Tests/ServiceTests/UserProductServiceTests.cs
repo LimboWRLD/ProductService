@@ -70,8 +70,8 @@ namespace Tests.ServiceTests
 
             var userProductGetResponses = new List<UserProductGetResponse>() 
             { 
-                new UserProductGetResponse { ProductId = 1 , UsertId = "1"}, 
-                new UserProductGetResponse {ProductId = 2, UsertId = "2" } 
+                new UserProductGetResponse { ProductId = 1 , UserId = "1"}, 
+                new UserProductGetResponse {ProductId = 2, UserId = "2" } 
             };
             
             _mapper.Map<IEnumerable<UserProductGetResponse>>(userProducts).Returns(userProductGetResponses);
@@ -102,7 +102,7 @@ namespace Tests.ServiceTests
         public async Task Get_UserProduct_Should_Be_NotNull()
         {
             var userProduct = new UserProduct { UserId = "1", ProductId = 1 };
-            var userProductGetResponse = new UserProductGetResponse { ProductId = 1 , UsertId = "1"};
+            var userProductGetResponse = new UserProductGetResponse { ProductId = 1 , UserId = "1"};
 
             _mapper.Map<UserProductGetResponse>(userProduct).Returns(userProductGetResponse);
             _userProductsRepository.GetUserProduct(userProduct.ProductId).Returns(userProduct);
@@ -117,7 +117,7 @@ namespace Tests.ServiceTests
         public async Task Get_UserProduct_Should_Be_Null()
         {
             var userProduct = new UserProduct { UserId = "1", ProductId = 1 };
-            var userProductGetResponse = new UserProductGetResponse { ProductId = 1, UsertId = "1" };
+            var userProductGetResponse = new UserProductGetResponse { ProductId = 1, UserId = "1" };
 
             _mapper.Map<UserProductGetResponse>(userProduct).Returns(userProductGetResponse);
             _userProductsRepository.GetUserProduct(userProduct.ProductId).Returns(Task.FromResult<UserProduct>(null));
