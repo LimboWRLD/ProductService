@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\ProductsBackend\\PresentationLayer\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\ProductsBackend\\PresentationLayer\\wwwroot\\browser\\favicon.ico",
+      "PackagePath": "staticwebassets\\browser\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\ProductsBackend\\PresentationLayer\\wwwroot\\browser\\index.html",
+      "PackagePath": "staticwebassets\\browser\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\ProductsBackend\\PresentationLayer\\wwwroot\\browser\\main-RHMAAMIX.js",
+      "PackagePath": "staticwebassets\\browser\\main-RHMAAMIX.js"
+    },
+    {
+      "Id": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\ProductsBackend\\PresentationLayer\\wwwroot\\browser\\polyfills-SCHOHYNV.js",
+      "PackagePath": "staticwebassets\\browser\\polyfills-SCHOHYNV.js"
+    },
+    {
+      "Id": "C:\\Users\\namid\\Documents\\c#\\TiacPraksaP1\\ProductsBackend\\PresentationLayer\\wwwroot\\browser\\styles-5INURTSO.css",
+      "PackagePath": "staticwebassets\\browser\\styles-5INURTSO.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PresentationLayer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PresentationLayer.props",
+      "PackagePath": "build\\PresentationLayer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PresentationLayer.props",
+      "PackagePath": "buildMultiTargeting\\PresentationLayer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PresentationLayer.props",
+      "PackagePath": "buildTransitive\\PresentationLayer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
